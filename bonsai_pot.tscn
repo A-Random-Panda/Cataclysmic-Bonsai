@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://dfgtaxjfik8vs"]
+[gd_scene format=3 uid="uid://cr3j76vh0urh"]
 
 [ext_resource type="Texture2D" uid="uid://casjueanetpjj" path="res://assets/image.png" id="1_6r4ft"]
 [ext_resource type="Script" uid="uid://cy6cax77qx13f" path="res://bonsai_pot.gd" id="1_tccnq"]

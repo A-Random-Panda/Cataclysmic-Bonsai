@@ -53,6 +53,7 @@ tile_set = SubResource("TileSet_jscdf")
 [node name="Player" parent="." unique_id=1817752149 instance=ExtResource("3_h2yge")]
 position = Vector2(502, 341)
 scale = Vector2(0.3, 0.3)
+script = null
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=1366742951]
 

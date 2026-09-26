@@ -3,9 +3,11 @@
 [ext_resource type="Texture2D" uid="uid://v1st0mm0ygta" path="res://assets/tile_map.png" id="1_ig7tw"]
 [ext_resource type="Texture2D" uid="uid://bv0kcshi0l241" path="res://assets/tile_map3.png" id="1_lquwl"]
 [ext_resource type="Texture2D" uid="uid://dtgiad2a34yue" path="res://assets/tile_map2.png" id="2_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://b1nnfr57ut5jb" path="res://assets/tree.png" id="3_272bh"]
 [ext_resource type="PackedScene" uid="uid://b6kmtyy8jsxb2" path="res://player.tscn" id="3_h2yge"]
 [ext_resource type="Texture2D" uid="uid://dw4pvpfvhu5qa" path="res://assets/gnome-pixilart.png" id="5_7mycd"]
 [ext_resource type="PackedScene" uid="uid://cr3j76vh0urh" path="res://bonsai_pot.tscn" id="6_7mycd"]
+[ext_resource type="PackedScene" uid="uid://bbj8o5jqq0e2o" path="res://tree.tscn" id="8_5vw27"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lquwl"]
 texture = ExtResource("1_lquwl")
@@ -53,6 +55,12 @@ texture_region_size = Vector2i(32, 32)
 2:2/0 = 0
 2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-15.980487, -16.045183, 16.045183, -15.980485, 16.012835, 16.012836, -15.948137, 16.012836)
 
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_5vw27"]
+texture = ExtResource("3_272bh")
+texture_region_size = Vector2i(32, 32)
+0:0/size_in_atlas = Vector2i(3, 3)
+0:0/0 = 0
+
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_272bh"]
 texture = ExtResource("2_0xm2m")
 texture_region_size = Vector2i(32, 32)
@@ -71,6 +79,7 @@ custom_data_layer_0/type = 4
 sources/1 = SubResource("TileSetAtlasSource_7mycd")
 sources/3 = SubResource("TileSetAtlasSource_272bh")
 sources/0 = SubResource("TileSetAtlasSource_lquwl")
+sources/2 = SubResource("TileSetAtlasSource_5vw27")
 
 [node name="Main" type="Node2D" unique_id=692212127]
 
@@ -91,3 +100,53 @@ position = Vector2(7, -1)
 
 [node name="BonsaiPot" parent="." unique_id=263233055 instance=ExtResource("6_7mycd")]
 position = Vector2(-156, -254)
+
+[node name="Node" type="Node" parent="." unique_id=716031424]
+
+[node name="Tree16" parent="Node" unique_id=1396286770 instance=ExtResource("8_5vw27")]
+position = Vector2(1176, 1236)
+
+[node name="Tree15" parent="Node" unique_id=1898372966 instance=ExtResource("8_5vw27")]
+position = Vector2(1416, 61)
+
+[node name="Tree" parent="Node" unique_id=2091113184 instance=ExtResource("8_5vw27")]
+position = Vector2(-954, -103)
+
+[node name="Tree2" parent="Node" unique_id=642273684 instance=ExtResource("8_5vw27")]
+position = Vector2(-1310, -516)
+
+[node name="Tree3" parent="Node" unique_id=1511376311 instance=ExtResource("8_5vw27")]
+position = Vector2(-1368, 511)
+
+[node name="Tree4" parent="Node" unique_id=1327824788 instance=ExtResource("8_5vw27")]
+position = Vector2(-407, 922)
+
+[node name="Tree5" parent="Node" unique_id=1068467602 instance=ExtResource("8_5vw27")]
+position = Vector2(68, 453)
+
+[node name="Tree6" parent="Node" unique_id=1708754409 instance=ExtResource("8_5vw27")]
+position = Vector2(419, 1087)
+
+[node name="Tree7" parent="Node" unique_id=306870168 instance=ExtResource("8_5vw27")]
+position = Vector2(1149, 483)
+
+[node name="Tree8" parent="Node" unique_id=1220322825 instance=ExtResource("8_5vw27")]
+position = Vector2(920, -279)
+
+[node name="Tree9" parent="Node" unique_id=166568190 instance=ExtResource("8_5vw27")]
+position = Vector2(-585, -754)
+
+[node name="Tree10" parent="Node" unique_id=2112739390 instance=ExtResource("8_5vw27")]
+position = Vector2(40, -685)
+
+[node name="Tree11" parent="Node" unique_id=2138101243 instance=ExtResource("8_5vw27")]
+position = Vector2(344, -1278)
+
+[node name="Tree12" parent="Node" unique_id=610951029 instance=ExtResource("8_5vw27")]
+position = Vector2(1474, -598)
+
+[node name="Tree13" parent="Node" unique_id=1874986911 instance=ExtResource("8_5vw27")]
+position = Vector2(1708, -1351)
+
+[node name="Tree14" parent="Node" unique_id=1543792829 instance=ExtResource("8_5vw27")]
+position = Vector2(-1072, -1135)

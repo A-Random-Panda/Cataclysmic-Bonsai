@@ -10,7 +10,6 @@ func _physics_process(delta: float) -> void:
 		speed = 150
 		print('road')
 	elif tile == "water":
-		speed = 0
 		print('cry')
 	elif tile  == "grass":
 		print('grass')

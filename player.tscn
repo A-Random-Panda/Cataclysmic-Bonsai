@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://b6kmtyy8jsxb2"]
+
+[ext_resource type="Script" uid="uid://d06s7wjf3e8g" path="res://player.gd" id="1_4flbx"]
+[ext_resource type="Texture2D" uid="uid://duj4nfp3je652" path="res://assets/alex_minecraft.png" id="1_oul6g"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vemod"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_oul6g")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Player" type="CharacterBody2D" unique_id=1817752149]
+script = ExtResource("1_4flbx")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2125743195]
+position = Vector2(561, 331)
+scale = Vector2(0.3, 0.3)
+sprite_frames = SubResource("SpriteFrames_vemod")

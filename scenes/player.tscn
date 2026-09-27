@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://d06s7wjf3e8g" path="res://scripts/player.gd" id="1_4flbx"]
 [ext_resource type="Texture2D" uid="uid://dw4pvpfvhu5qa" path="res://assets/gnome-pixilart.png" id="2_onrkg"]
+[ext_resource type="PackedScene" uid="uid://b3ykcsneu70cq" path="res://sun_minigame/sun_minigame.tscn" id="2_qhqgy"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_vemod"]
 animations = [{
@@ -36,6 +37,7 @@ size = Vector2(41, 6)
 
 [node name="Player" type="CharacterBody2D" unique_id=1817752149]
 script = ExtResource("1_4flbx")
+sun_scene = ExtResource("2_qhqgy")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2125743195]
 position = Vector2(2, -30)

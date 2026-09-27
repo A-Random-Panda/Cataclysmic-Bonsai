@@ -9,22 +9,26 @@
 [ext_resource type="PackedScene" uid="uid://d3trq7iany6vo" path="res://scenes/water_task_test.tscn" id="7_o6xl0"]
 [ext_resource type="PackedScene" uid="uid://bbj8o5jqq0e2o" path="res://scenes/tree.tscn" id="8_tipki"]
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lquwl"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_choun"]
 texture = ExtResource("1_tefeu")
 0:0/size_in_atlas = Vector2i(2, 2)
 0:0/0 = 0
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-15.980487, -16.045183, 16.045183, -15.980485, 16.012835, 16.012836, -15.948137, 16.012836)
+0:0/0/custom_data_0 = "rock"
 2:0/size_in_atlas = Vector2i(2, 2)
 2:0/0 = 0
 2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-15.980487, -16.045183, 16.045183, -15.980485, 16.012835, 16.012836, -15.948137, 16.012836)
+2:0/0/custom_data_0 = "rock"
 0:2/size_in_atlas = Vector2i(2, 2)
 0:2/0 = 0
 0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-15.980487, -16.045183, 16.045183, -15.980485, 16.012835, 16.012836, -15.948137, 16.012836)
+0:2/0/custom_data_0 = "rock"
 2:2/size_in_atlas = Vector2i(2, 2)
 2:2/0 = 0
 2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-15.980487, -16.045183, 16.045183, -15.980485, 16.012835, 16.012836, -15.948137, 16.012836)
+2:2/0/custom_data_0 = "rock"
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7mycd"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ya4ey"]
 texture = ExtResource("2_o6xl0")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
@@ -55,7 +59,7 @@ texture_region_size = Vector2i(32, 32)
 2:2/0 = 0
 2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-15.980487, -16.045183, 16.045183, -15.980485, 16.012835, 16.012836, -15.948137, 16.012836)
 
-[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_272bh"]
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_eb6dy"]
 texture = ExtResource("3_tipki")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
@@ -70,9 +74,9 @@ tile_size = Vector2i(32, 32)
 physics_layer_0/collision_layer = 0
 custom_data_layer_0/name = "type"
 custom_data_layer_0/type = 4
-sources/1 = SubResource("TileSetAtlasSource_7mycd")
-sources/3 = SubResource("TileSetAtlasSource_272bh")
-sources/0 = SubResource("TileSetAtlasSource_lquwl")
+sources/1 = SubResource("TileSetAtlasSource_ya4ey")
+sources/3 = SubResource("TileSetAtlasSource_eb6dy")
+sources/0 = SubResource("TileSetAtlasSource_choun")
 
 [node name="Main" type="Node2D" unique_id=692212127]
 

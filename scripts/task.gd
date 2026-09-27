@@ -1,11 +1,11 @@
 extends Node
 class_name task
 	
-const types:Array = ["Water","Music","Forest"]
+const types:Array = ["Water","Music","Sun"]
 const requests:Dictionary = {
 	"Water":"My roots are thirsty",
 	"Music":"Sing to me",
-	"Forest":"I would like to walk"
+	"Sun":"I want sun"
 	}
 var request:String
 var curr_task:String = "None"

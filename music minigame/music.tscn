@@ -1,0 +1,6 @@
+[gd_scene format=3 uid="uid://b1lf7lnigspiw"]
+
+[ext_resource type="Script" uid="uid://dwbu4k7qc5thb" path="res://music minigame/music.gd" id="1_xhx16"]
+
+[node name="Music" type="Node2D" unique_id=485553916]
+script = ExtResource("1_xhx16")

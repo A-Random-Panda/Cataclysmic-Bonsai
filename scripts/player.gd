@@ -14,7 +14,7 @@ func _physics_process(delta: float) -> void:
 		#print('cry')
 	elif tile  == "grass":
 		#print('grass')
-		speed = 20
+		speed = 75
 	else:
 		#print("code does run")
 		pass

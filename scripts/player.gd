@@ -51,13 +51,14 @@ func get_tile():
 
 
 func _on_grab_area_body_entered(body: Node2D) -> void:
-
+	
 	if not grabbing:
 		for child in get_tree().current_scene.find_children("BonsaiPot*"):
 			if body == child.get_child(0):
-				child.emit_signal("is_grabbed",position)
-				held_thing = child
-				grabbing = true
+				if not child.dead:
+					child.emit_signal("is_grabbed",position)
+					held_thing = child
+					grabbing = true
 
 
 		

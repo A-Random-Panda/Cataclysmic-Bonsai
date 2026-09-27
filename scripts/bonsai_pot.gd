@@ -27,16 +27,17 @@ func _process(delta: float) -> void:
 func _on_task_finished(args) -> void:
 	var task_type = args[0]
 	var reward = args[1] 
-	print(task_type,reward)
-	if reward == -1:reward = 50
-	if task_type == tasks.curr_task:
-		if h_meter + reward < 200:
-			h_meter += reward
-		else:
-			scale.x +=  (h_meter+reward-200)/1000
-			scale.y +=  (h_meter+reward-200)/1000
-			h_meter = 200
-		tasks.finish(get_node("Label"))
+	if not dead:
+		if reward == -1:reward = 50
+		if task_type == tasks.curr_task:
+			if h_meter + reward < 200:
+				h_meter += reward
+			else:
+				scale.x +=  (h_meter+reward-200)/1000
+				scale.y +=  (h_meter+reward-200)/1000
+				h_meter = 200
+			tasks.finish(get_node("Label"))
 
 func _on_is_grabbed(pos:Vector2) -> void:
-	grabbed = true
+	if not dead:
+		grabbed = true

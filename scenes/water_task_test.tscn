@@ -1,3 +1,16 @@
 [gd_scene format=3 uid="uid://d3trq7iany6vo"]
 
-[node name="WaterTaskTest" type="Node2D" unique_id=1467439871]
+[ext_resource type="Texture2D" uid="uid://bv867f4nigpxa" path="res://assets/icon.svg" id="1_joun6"]
+[ext_resource type="Script" uid="uid://bc7exyp5nohx4" path="res://scripts/water_task_test.gd" id="1_oemsf"]
+
+[node name="WaterTaskTest" type="Area2D" unique_id=1327654078]
+script = ExtResource("1_oemsf")
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=2126010103]
+position = Vector2(4, 4)
+texture = ExtResource("1_joun6")
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=150036537]
+polygon = PackedVector2Array(66, -56, 69, 64, -59, 66, -57, -57)
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

@@ -8,14 +8,16 @@ func _physics_process(delta: float) -> void:
 	var tile = get_tile()
 	if tile == "road":
 		speed = 150
-		print('road')
+		#print('road')
 	elif tile == "water":
-		print('cry')
+		pass
+		#print('cry')
 	elif tile  == "grass":
-		print('grass')
+		#print('grass')
 		speed = 20
 	else:
-		print("code does run")
+		#print("code does run")
+		pass
 	
 	movement()
 	move_and_slide()

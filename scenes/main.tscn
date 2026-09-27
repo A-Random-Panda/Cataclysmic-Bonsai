@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://dw4pvpfvhu5qa" path="res://assets/gnome-pixilart.png" id="4_85g3d"]
 [ext_resource type="PackedScene" uid="uid://b6kmtyy8jsxb2" path="res://scenes/player.tscn" id="5_choun"]
 [ext_resource type="PackedScene" uid="uid://b6dqpa8i7xuys" path="res://scenes/Bonsai_Pot.tscn" id="6_ya4ey"]
+[ext_resource type="PackedScene" uid="uid://d3trq7iany6vo" path="res://scenes/water_task_test.tscn" id="7_o6xl0"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lquwl"]
 texture = ExtResource("1_tefeu")
@@ -91,3 +92,8 @@ position = Vector2(7, -1)
 
 [node name="BonsaiPot" parent="." unique_id=263233055 instance=ExtResource("6_ya4ey")]
 position = Vector2(-156, -254)
+h_meter = 200.0
+
+[node name="WaterTaskTest" parent="." unique_id=1327654078 instance=ExtResource("7_o6xl0")]
+z_index = 203
+position = Vector2(-317, -124)

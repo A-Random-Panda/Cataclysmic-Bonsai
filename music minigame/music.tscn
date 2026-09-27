@@ -12,6 +12,7 @@
 [ext_resource type="Texture2D" uid="uid://cfqr8pvy6wj2b" path="res://assets/keyboard.png" id="10_pq6pi"]
 
 [node name="Music" type="Node2D" unique_id=485553916]
+z_index = 747
 script = ExtResource("1_xhx16")
 
 [node name="Label" type="Label" parent="." unique_id=194916241]
@@ -21,6 +22,7 @@ offset_right = 1118.0
 offset_bottom = 48.0
 theme_override_font_sizes/font_size = 23
 text = "Current Score: "
+metadata/_edit_use_anchors_ = true
 
 [node name="C1" type="AudioStreamPlayer2D" parent="." unique_id=1156187132]
 stream = ExtResource("2_h7ajh")
@@ -60,3 +62,4 @@ offset_bottom = 305.0
 text = "Hover over the circles 
 with your mouse before 
 they disappear"
+metadata/_edit_use_anchors_ = true

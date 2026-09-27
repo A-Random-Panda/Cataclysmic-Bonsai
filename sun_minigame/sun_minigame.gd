@@ -17,13 +17,13 @@ func _process(delta: float) -> void:
 			score += 1
 		
 		time += delta
-		if time > 10:
+		if time > 20:
 			times_up = true
 			finish_game()
 
 func finish_game():
 	var player = get_tree().current_scene.get_node("Player")
-	player.held_thing.emit_signal("task_finished",["Sun",score])
+	player.held_thing.emit_signal("task_finished",["Sun",score*2])
 	player.in_game = false
 	player.position = Vector2(832.0,493.0)
 	self.queue_free()

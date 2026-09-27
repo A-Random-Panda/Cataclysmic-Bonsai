@@ -1,28 +1,36 @@
 extends CharacterBody2D
 @export var sun_scene:PackedScene
+@export var water_scene:PackedScene
+@export var music_scene:PackedScene
 @onready var tile_map_layer: TileMapLayer = get_tree().current_scene.get_node("TileMapLayer")
 var speed = 150.0
 var grabbing:bool
 var held_thing
 var in_game = false
 func _physics_process(delta: float) -> void:
-	print(position)
 	var tile = get_tile()
 	if tile == "road":
 		speed = 150
 		
 	elif tile == "water":
-		position = Vector2(746.8496, -785.3945)
+		if not in_game and grabbing:
+			var water_minigame = water_scene.instantiate()
+			water_minigame.position = Vector2(-1152/2,-648/2)
+			add_child(water_minigame)
+			in_game = true
 	elif tile == "dance":
-		position = Vector2(-968.4984, 702.4985)
+		if not in_game and grabbing:
+			var music_minigame = music_scene.instantiate()
+			music_minigame.position = Vector2(-1152/2,-648/2)
+			add_child(music_minigame)
+			in_game = true
 	elif tile  == "grass":
 		speed = 75
 	elif tile == "rock":
-		if not in_game:
+		if not in_game and grabbing:
 			var sun_minigame = sun_scene.instantiate()
 			add_child(sun_minigame)
 			in_game = true
-	
 	else:
 		pass
 		

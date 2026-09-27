@@ -102,14 +102,6 @@ position = Vector2(0.5, 226.875)
 texture = ExtResource("7_1gusi")
 offset = Vector2(0, -32)
 
-[node name="Label" type="Label" parent="." unique_id=1939304567]
-offset_left = -333.0
-offset_top = -91.0
-offset_right = -71.0
-offset_bottom = -68.0
-text = "Spam spacebar and reach the sun"
-metadata/_edit_use_anchors_ = true
-
 [node name="Backgroundv5Shots" type="Sprite2D" parent="." unique_id=1032096505]
 z_index = 250
 position = Vector2(-163, -2.5)

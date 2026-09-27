@@ -6,7 +6,6 @@
 [ext_resource type="Texture2D" uid="uid://dtgiad2a34yue" path="res://assets/tile_map2.png" id="3_tipki"]
 [ext_resource type="PackedScene" uid="uid://b6kmtyy8jsxb2" path="res://scenes/player.tscn" id="5_choun"]
 [ext_resource type="PackedScene" uid="uid://b6dqpa8i7xuys" path="res://scenes/Bonsai_Pot.tscn" id="6_ya4ey"]
-[ext_resource type="PackedScene" uid="uid://d3trq7iany6vo" path="res://scenes/water_task_test.tscn" id="7_o6xl0"]
 [ext_resource type="PackedScene" uid="uid://bbj8o5jqq0e2o" path="res://scenes/tree.tscn" id="8_tipki"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_choun"]
@@ -109,10 +108,6 @@ position = Vector2(-156, -254)
 
 [node name="BonsaiPot2" parent="." unique_id=889426889 instance=ExtResource("6_ya4ey")]
 position = Vector2(50, -258)
-
-[node name="WaterTaskTest" parent="." unique_id=1327654078 instance=ExtResource("7_o6xl0")]
-z_index = 203
-position = Vector2(-317, -124)
 
 [node name="Forest" type="Node" parent="." unique_id=1313968194]
 

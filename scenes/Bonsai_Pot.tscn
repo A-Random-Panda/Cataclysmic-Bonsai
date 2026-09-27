@@ -61,5 +61,13 @@ offset_right = 248.0
 offset_bottom = -157.0
 horizontal_alignment = 1
 
+[node name="SizeLabel" type="Label" parent="." unique_id=1084616810]
+offset_left = -139.0
+offset_top = -132.0
+offset_right = 142.0
+offset_bottom = -109.0
+text = "100"
+horizontal_alignment = 1
+
 [connection signal="is_grabbed" from="." to="." method="_on_is_grabbed"]
 [connection signal="task_finished" from="." to="." method="_on_task_finished"]

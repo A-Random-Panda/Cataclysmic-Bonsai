@@ -36,7 +36,10 @@ func _on_task_finished(args) -> void:
 				scale.x +=  (h_meter+reward-200)/1000
 				scale.y +=  (h_meter+reward-200)/1000
 				h_meter = 200
+				var size_label = get_node("SizeLabel")
+				size_label.text = str(float(size_label.text) * (1+(h_meter+reward-200)/100))
 			tasks.finish(get_node("Label"))
+			
 
 func _on_is_grabbed(pos:Vector2) -> void:
 	if not dead:

@@ -8,7 +8,8 @@ var score: int = 0
 var animation_timer: float = 0
 var audio_list: Array = []
 var audio_index: int = 0
-
+var time:float = 0
+var times_up = false
 func random_spawnpoint(p1: Vector2, p2:Vector2) -> Vector2:
 	var x_value: float = randf_range(p1.x,p2.x)
 	var y_value: float = randf_range(p1.y,p2.y)
@@ -20,24 +21,28 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
-	timer += delta
-	animation_timer += delta
-	if (timer > 1 and animation_timer < 5 ) or (timer > 0.7 and animation_timer >= 5 and animation_timer < 13) or (timer > 0.5 and animation_timer >= 13 and animation_timer < 20):
-		spawn_notes()
-		timer = 0
-	if len(notes_list) > 0 :
-		for i in notes_list:
-			var animated_sprite: AnimatedSprite2D = i.get_node("AnimatedSprite2D")
-			if not animated_sprite.is_playing():
-				score -= 1
-				$Label.text = ("Curent score " + str(score))
-				notes_list.erase(i)
-				i.queue_free()
-			if animation_timer > 5:
-				animated_sprite.sprite_frames.set_animation_speed("default",5)
-			if animation_timer > 15:
-				animated_sprite.sprite_frames.set_animation_speed("default",8)
-
+	if not times_up:
+		timer += delta
+		time += delta
+		animation_timer += delta
+		if (timer > 1 and animation_timer < 5 ) or (timer > 0.7 and animation_timer >= 5 and animation_timer < 13) or (timer > 0.5 and animation_timer >= 13 and animation_timer < 20):
+			spawn_notes()
+			timer = 0
+		if len(notes_list) > 0 :
+			for i in notes_list:
+				var animated_sprite: AnimatedSprite2D = i.get_node("AnimatedSprite2D")
+				if not animated_sprite.is_playing():
+					score -= 1
+					$Label.text = ("Curent score " + str(score))
+					notes_list.erase(i)
+					i.queue_free()
+				if animation_timer > 5:
+					animated_sprite.sprite_frames.set_animation_speed("default",5)
+				if animation_timer > 15:
+					animated_sprite.sprite_frames.set_animation_speed("default",8)
+		if time > 20:
+				times_up = true
+				finish_game()
 func _on_mouse_entered(note: Node2D) -> void:
 	score += 1
 	if audio_index == 8:
@@ -58,3 +63,10 @@ func spawn_notes() -> void:
 	notes_list.append(notes)
 	var area2d: Area2D = notes.get_node("AnimatedSprite2D/Area2D")
 	area2d.mouse_entered.connect(_on_mouse_entered.bind(notes))
+	
+func finish_game():
+	var player = get_tree().current_scene.get_node("Player")
+	player.held_thing.emit_signal("task_finished",["Music",score*4+20])
+	player.in_game = false
+	player.position = Vector2(-968.4984, 702.4985)
+	self.queue_free()

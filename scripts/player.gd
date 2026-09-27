@@ -1,23 +1,32 @@
 extends CharacterBody2D
-
+@export var sun_scene:PackedScene
 @onready var tile_map_layer: TileMapLayer = get_tree().current_scene.get_node("TileMapLayer")
 var speed = 150.0
 var grabbing:bool
 var held_thing
+var in_game = false
 func _physics_process(delta: float) -> void:
+	
 	var tile = get_tile()
 	if tile == "road":
 		speed = 150
-		#print('road')
+		
 	elif tile == "water":
 		pass
 		#print('cry')
 	elif tile  == "grass":
 		#print('grass')
 		speed = 75
+	elif tile == "rock":
+		if not in_game:
+			var sun_minigame = sun_scene.instantiate()
+			add_child(sun_minigame)
+			in_game = true
 	else:
-		#print("code does run")
 		pass
+		
+		
+		
 		
 	if Input.is_action_just_pressed("drop"):
 		if grabbing:

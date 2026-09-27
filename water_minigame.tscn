@@ -1,0 +1,76 @@
+[gd_scene format=3 uid="uid://b7ii6il2psud8"]
+
+[ext_resource type="AudioStream" uid="uid://xlh41sh7gnae" path="res://assets/sounds/ding.ogg" id="2_a4oos"]
+[ext_resource type="AudioStream" uid="uid://cwsgegmguetup" path="res://assets/sounds/dong.ogg" id="3_fwyg7"]
+[ext_resource type="Texture2D" uid="uid://c3vfvucxb8eh0" path="res://assets/watering_can.png" id="4_fwyg7"]
+
+[node name="Water Minigame" type="Control" unique_id=1106985812]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Bar" type="ColorRect" parent="." unique_id=1283285848]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.386
+anchor_top = 0.40500003
+anchor_right = 0.386
+anchor_bottom = 0.40500003
+offset_left = -344.672
+offset_top = 37.559967
+offset_right = 605.328
+offset_bottom = 77.55997
+color = Color(0.48130488, 0.99676293, 0.9156, 1)
+
+[node name="Target" type="ColorRect" parent="Bar" unique_id=1194603278]
+layout_mode = 0
+offset_left = 450.0
+offset_right = 550.0
+offset_bottom = 40.0
+color = Color(0, 0.14901961, 1, 1)
+
+[node name="Marker" type="ColorRect" parent="Bar" unique_id=771578324]
+layout_mode = 0
+offset_right = 10.0
+offset_bottom = 40.0
+color = Color(0, 0, 0, 1)
+
+[node name="Result" type="Label" parent="." unique_id=219764426]
+layout_mode = 0
+offset_left = 550.0
+offset_top = 220.0
+offset_right = 590.0
+offset_bottom = 265.0
+theme_override_font_sizes/font_size = 32
+
+[node name="Points" type="Label" parent="." unique_id=1796298469]
+layout_mode = 0
+offset_left = 936.0
+offset_top = 35.0
+offset_right = 1053.0
+offset_bottom = 58.0
+theme_override_font_sizes/font_size = 24
+text = "Current Points:"
+
+[node name="Ding" type="AudioStreamPlayer2D" parent="." unique_id=1307919678]
+stream = ExtResource("2_a4oos")
+
+[node name="Dong" type="AudioStreamPlayer2D" parent="." unique_id=2108456783]
+stream = ExtResource("3_fwyg7")
+
+[node name="WateringCan" type="Sprite2D" parent="." unique_id=1837177320]
+z_index = -4
+position = Vector2(578.3334, 326.62503)
+scale = Vector2(7.984568, 7.984568)
+texture = ExtResource("4_fwyg7")
+
+[node name="Label" type="Label" parent="." unique_id=2124908132]
+layout_mode = 0
+offset_left = 420.0
+offset_top = 584.0
+offset_right = 761.0
+offset_bottom = 607.0
+text = "Press space bar when black bar is over blue"

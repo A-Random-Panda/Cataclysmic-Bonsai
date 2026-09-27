@@ -1,6 +1,5 @@
 [gd_scene format=3 uid="uid://b7ii6il2psud8"]
 
-[ext_resource type="Script" path="res://water_minigame.gd" id="1_i37tf"]
 [ext_resource type="AudioStream" uid="uid://xlh41sh7gnae" path="res://assets/sounds/ding.ogg" id="2_a4oos"]
 [ext_resource type="AudioStream" uid="uid://cwsgegmguetup" path="res://assets/sounds/dong.ogg" id="3_fwyg7"]
 [ext_resource type="Texture2D" uid="uid://c3vfvucxb8eh0" path="res://assets/watering_can.png" id="4_fwyg7"]
@@ -12,7 +11,6 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_i37tf")
 
 [node name="Bar" type="ColorRect" parent="." unique_id=1283285848]
 layout_mode = 1
@@ -68,3 +66,11 @@ z_index = -4
 position = Vector2(578.3334, 326.62503)
 scale = Vector2(7.984568, 7.984568)
 texture = ExtResource("4_fwyg7")
+
+[node name="Label" type="Label" parent="." unique_id=2124908132]
+layout_mode = 0
+offset_left = 420.0
+offset_top = 584.0
+offset_right = 761.0
+offset_bottom = 607.0
+text = "Press space bar when black bar is over blue"

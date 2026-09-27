@@ -55,10 +55,10 @@ script = ExtResource("3_xx31s")
 metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="." unique_id=864602451]
-offset_left = -246.0
-offset_top = -164.0
-offset_right = 249.0
-offset_bottom = -141.0
+offset_left = -248.0
+offset_top = -163.0
+offset_right = 247.0
+offset_bottom = -140.0
 horizontal_alignment = 1
 
 [node name="SizeLabel" type="Label" parent="." unique_id=1084616810]

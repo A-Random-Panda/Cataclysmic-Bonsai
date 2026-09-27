@@ -13,13 +13,13 @@ func _physics_process(delta: float) -> void:
 		speed = 150
 		
 	elif tile == "water":
-		if not in_game and grabbing:
+		if not in_game and grabbing and held_thing.tasks.curr_task == "Water":
 			var water_minigame = water_scene.instantiate()
 			water_minigame.position = Vector2(-1152/2,-648/2)
 			add_child(water_minigame)
 			in_game = true
 	elif tile == "dance":
-		if not in_game and grabbing:
+		if not in_game and grabbing and held_thing.tasks.curr_task == "Music":
 			var music_minigame = music_scene.instantiate()
 			music_minigame.position = Vector2(-1152/2,-648/2)
 			add_child(music_minigame)
@@ -27,7 +27,7 @@ func _physics_process(delta: float) -> void:
 	elif tile  == "grass":
 		speed = 75
 	elif tile == "rock":
-		if not in_game and grabbing:
+		if not in_game and grabbing and held_thing.tasks.curr_task == "Sun":
 			var sun_minigame = sun_scene.instantiate()
 			add_child(sun_minigame)
 			in_game = true

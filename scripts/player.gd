@@ -44,15 +44,14 @@ func _physics_process(delta: float) -> void:
 			held_thing.grabbed = false
 	if abs(position.x) > 2500:
 		if position.x > 0:
-			position.x = 2400
-		else:
 			position.x = -2400
-		position.x = 2400
+		else:
+			position.x = 2400
 	if abs(position.y) > 2500:
 		if position.y > 0:
-			position.y = 2400
-		else:
 			position.y = -2400
+		else:
+			position.y = 2400
 		
 	movement()
 	move_and_slide()

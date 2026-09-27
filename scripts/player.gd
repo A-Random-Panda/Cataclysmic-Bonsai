@@ -59,6 +59,3 @@ func _on_grab_area_body_entered(body: Node2D) -> void:
 					child.emit_signal("is_grabbed",position)
 					held_thing = child
 					grabbing = true
-
-
-		

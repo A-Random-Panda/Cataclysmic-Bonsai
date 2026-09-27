@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://b6dqpa8i7xuys" path="res://scenes/Bonsai_Pot.tscn" id="6_ya4ey"]
 [ext_resource type="PackedScene" uid="uid://cgkal5ihb4vl1" path="res://scenes/pumpkin.tscn" id="8_85g3d"]
 [ext_resource type="PackedScene" uid="uid://bbj8o5jqq0e2o" path="res://scenes/tree.tscn" id="8_tipki"]
+[ext_resource type="PackedScene" uid="uid://b722nipd05qsm" path="res://leaves.tscn" id="9_85g3d"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_choun"]
 texture = ExtResource("1_tefeu")
@@ -297,3 +298,2051 @@ position = Vector2(-5832, 1056)
 
 [node name="Pumpkin2" parent="." unique_id=1989740786 instance=ExtResource("8_85g3d")]
 position = Vector2(-941, 491)
+
+[node name="Node2D" parent="." unique_id=992368975 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-669, 1447)
+
+[node name="Node2D2" parent="." unique_id=1671323064 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-669, 980)
+
+[node name="Node2D3" parent="." unique_id=800445648 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(65, 1453)
+
+[node name="Node2D4" parent="." unique_id=1917285943 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(65, 986)
+
+[node name="Node2D5" parent="." unique_id=1570731902 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-669, 518)
+
+[node name="Node2D6" parent="." unique_id=242815650 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-669, 51)
+
+[node name="Node2D7" parent="." unique_id=1403381536 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(65, 524)
+
+[node name="Node2D8" parent="." unique_id=802461333 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(65, 57)
+
+[node name="Node2D9" parent="." unique_id=207375478 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(825, 1440)
+
+[node name="Node2D10" parent="." unique_id=1191509579 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(825, 973)
+
+[node name="Node2D11" parent="." unique_id=1008180429 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1559, 1446)
+
+[node name="Node2D12" parent="." unique_id=322078456 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1559, 979)
+
+[node name="Node2D13" parent="." unique_id=1956926339 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(825, 511)
+
+[node name="Node2D14" parent="." unique_id=1709714787 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(825, 44)
+
+[node name="Node2D15" parent="." unique_id=139637519 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1559, 517)
+
+[node name="Node2D16" parent="." unique_id=1366004981 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1559, 50)
+
+[node name="Node2D17" parent="." unique_id=486491478 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-676, -417)
+
+[node name="Node2D18" parent="." unique_id=1019762998 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-676, -884)
+
+[node name="Node2D19" parent="." unique_id=1357765059 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(58, -411)
+
+[node name="Node2D20" parent="." unique_id=558930530 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(58, -878)
+
+[node name="Node2D21" parent="." unique_id=847308805 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-676, -1346)
+
+[node name="Node2D22" parent="." unique_id=1674082775 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-676, -1813)
+
+[node name="Node2D23" parent="." unique_id=353050556 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(58, -1340)
+
+[node name="Node2D24" parent="." unique_id=33545472 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(58, -1807)
+
+[node name="Node2D25" parent="." unique_id=731118980 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(818, -424)
+
+[node name="Node2D26" parent="." unique_id=588348455 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(818, -891)
+
+[node name="Node2D27" parent="." unique_id=1040377441 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1552, -418)
+
+[node name="Node2D28" parent="." unique_id=1917338662 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1552, -885)
+
+[node name="Node2D29" parent="." unique_id=692594430 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(818, -1353)
+
+[node name="Node2D30" parent="." unique_id=9755177 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(818, -1820)
+
+[node name="Node2D31" parent="." unique_id=537658366 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1552, -1347)
+
+[node name="Node2D32" parent="." unique_id=146406068 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1552, -1814)
+
+[node name="Node2D33" parent="." unique_id=1544567058 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2318, 1440)
+
+[node name="Node2D34" parent="." unique_id=1231915425 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2318, 973)
+
+[node name="Node2D35" parent="." unique_id=952893150 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3052, 1446)
+
+[node name="Node2D36" parent="." unique_id=793878484 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3052, 979)
+
+[node name="Node2D37" parent="." unique_id=2139870107 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2318, 511)
+
+[node name="Node2D38" parent="." unique_id=152339832 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2318, 44)
+
+[node name="Node2D39" parent="." unique_id=708913580 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3052, 517)
+
+[node name="Node2D40" parent="." unique_id=264268163 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3052, 50)
+
+[node name="Node2D41" parent="." unique_id=1196513110 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3812, 1433)
+
+[node name="Node2D42" parent="." unique_id=1198524453 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3812, 966)
+
+[node name="Node2D43" parent="." unique_id=540059457 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4546, 1439)
+
+[node name="Node2D44" parent="." unique_id=1832443282 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4546, 972)
+
+[node name="Node2D45" parent="." unique_id=1717713630 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3812, 504)
+
+[node name="Node2D46" parent="." unique_id=477905561 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3812, 37)
+
+[node name="Node2D47" parent="." unique_id=920699429 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4546, 510)
+
+[node name="Node2D48" parent="." unique_id=1462387980 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4546, 43)
+
+[node name="Node2D49" parent="." unique_id=1968159559 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2311, -424)
+
+[node name="Node2D50" parent="." unique_id=1188189140 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2311, -891)
+
+[node name="Node2D51" parent="." unique_id=1961680136 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3045, -418)
+
+[node name="Node2D52" parent="." unique_id=1376741416 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3045, -885)
+
+[node name="Node2D53" parent="." unique_id=434366493 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2311, -1353)
+
+[node name="Node2D54" parent="." unique_id=1591441317 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2311, -1820)
+
+[node name="Node2D55" parent="." unique_id=1162450438 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3045, -1347)
+
+[node name="Node2D56" parent="." unique_id=759476061 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3045, -1814)
+
+[node name="Node2D57" parent="." unique_id=1294160825 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3805, -431)
+
+[node name="Node2D58" parent="." unique_id=1896571413 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3805, -898)
+
+[node name="Node2D59" parent="." unique_id=129691301 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4539, -425)
+
+[node name="Node2D60" parent="." unique_id=122639173 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4539, -892)
+
+[node name="Node2D61" parent="." unique_id=871123725 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3805, -1360)
+
+[node name="Node2D62" parent="." unique_id=128336432 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3805, -1827)
+
+[node name="Node2D63" parent="." unique_id=2072017777 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4539, -1354)
+
+[node name="Node2D64" parent="." unique_id=161746971 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4539, -1821)
+
+[node name="Node2D65" parent="." unique_id=1039125137 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-649, 5134)
+
+[node name="Node2D66" parent="." unique_id=2021678232 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-649, 4667)
+
+[node name="Node2D67" parent="." unique_id=2118793288 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(85, 5140)
+
+[node name="Node2D68" parent="." unique_id=499844896 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(85, 4673)
+
+[node name="Node2D69" parent="." unique_id=733673849 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-649, 4205)
+
+[node name="Node2D70" parent="." unique_id=1599506894 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-649, 3738)
+
+[node name="Node2D71" parent="." unique_id=596765942 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(85, 4211)
+
+[node name="Node2D72" parent="." unique_id=1423763294 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(85, 3744)
+
+[node name="Node2D73" parent="." unique_id=1818013649 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(845, 5127)
+
+[node name="Node2D74" parent="." unique_id=2112219602 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(845, 4660)
+
+[node name="Node2D75" parent="." unique_id=1256443620 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1579, 5133)
+
+[node name="Node2D76" parent="." unique_id=71537284 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1579, 4666)
+
+[node name="Node2D77" parent="." unique_id=397460996 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(845, 4198)
+
+[node name="Node2D78" parent="." unique_id=857312187 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(845, 3731)
+
+[node name="Node2D79" parent="." unique_id=668211163 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1579, 4204)
+
+[node name="Node2D80" parent="." unique_id=402028914 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1579, 3737)
+
+[node name="Node2D81" parent="." unique_id=1591172241 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-656, 3270)
+
+[node name="Node2D82" parent="." unique_id=595421122 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-656, 2803)
+
+[node name="Node2D83" parent="." unique_id=1672802316 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(78, 3276)
+
+[node name="Node2D84" parent="." unique_id=468574323 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(78, 2809)
+
+[node name="Node2D85" parent="." unique_id=892474096 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-656, 2341)
+
+[node name="Node2D86" parent="." unique_id=182753719 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-656, 1874)
+
+[node name="Node2D87" parent="." unique_id=1500118965 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(78, 2347)
+
+[node name="Node2D88" parent="." unique_id=1926924587 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(78, 1880)
+
+[node name="Node2D89" parent="." unique_id=1134859460 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(838, 3263)
+
+[node name="Node2D90" parent="." unique_id=1865262767 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(838, 2796)
+
+[node name="Node2D91" parent="." unique_id=1144389070 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1572, 3269)
+
+[node name="Node2D92" parent="." unique_id=366427965 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1572, 2802)
+
+[node name="Node2D93" parent="." unique_id=2058463135 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(838, 2334)
+
+[node name="Node2D94" parent="." unique_id=127177775 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(838, 1867)
+
+[node name="Node2D95" parent="." unique_id=425565706 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1572, 2340)
+
+[node name="Node2D96" parent="." unique_id=596378478 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1572, 1873)
+
+[node name="Node2D97" parent="." unique_id=1318581912 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2338, 5127)
+
+[node name="Node2D98" parent="." unique_id=873717731 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2338, 4660)
+
+[node name="Node2D99" parent="." unique_id=1341186369 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3072, 5133)
+
+[node name="Node2D100" parent="." unique_id=1735100162 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3072, 4666)
+
+[node name="Node2D101" parent="." unique_id=1577258217 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2338, 4198)
+
+[node name="Node2D102" parent="." unique_id=2034715152 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2338, 3731)
+
+[node name="Node2D103" parent="." unique_id=245262703 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3072, 4204)
+
+[node name="Node2D104" parent="." unique_id=1798832963 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3072, 3737)
+
+[node name="Node2D105" parent="." unique_id=1984376088 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3832, 5120)
+
+[node name="Node2D106" parent="." unique_id=496442850 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3832, 4653)
+
+[node name="Node2D107" parent="." unique_id=141221914 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4566, 5126)
+
+[node name="Node2D108" parent="." unique_id=198089286 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4566, 4659)
+
+[node name="Node2D109" parent="." unique_id=1908391456 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3832, 4191)
+
+[node name="Node2D110" parent="." unique_id=357785539 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3832, 3724)
+
+[node name="Node2D111" parent="." unique_id=1765134485 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4566, 4197)
+
+[node name="Node2D112" parent="." unique_id=420968553 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4566, 3730)
+
+[node name="Node2D113" parent="." unique_id=880486014 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2331, 3263)
+
+[node name="Node2D114" parent="." unique_id=386473408 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2331, 2796)
+
+[node name="Node2D115" parent="." unique_id=1583166378 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3065, 3269)
+
+[node name="Node2D116" parent="." unique_id=257899003 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3065, 2802)
+
+[node name="Node2D117" parent="." unique_id=754523057 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2331, 2334)
+
+[node name="Node2D118" parent="." unique_id=270864773 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2331, 1867)
+
+[node name="Node2D119" parent="." unique_id=215719890 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3065, 2340)
+
+[node name="Node2D120" parent="." unique_id=1534011382 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3065, 1873)
+
+[node name="Node2D121" parent="." unique_id=2026054224 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3825, 3256)
+
+[node name="Node2D122" parent="." unique_id=1940137407 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3825, 2789)
+
+[node name="Node2D123" parent="." unique_id=390352897 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4559, 3262)
+
+[node name="Node2D124" parent="." unique_id=857154056 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4559, 2795)
+
+[node name="Node2D125" parent="." unique_id=1970071012 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3825, 2327)
+
+[node name="Node2D126" parent="." unique_id=322468889 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3825, 1860)
+
+[node name="Node2D127" parent="." unique_id=1015557415 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4559, 2333)
+
+[node name="Node2D128" parent="." unique_id=1359774897 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4559, 1866)
+
+[node name="Node2D129" parent="." unique_id=1638641953 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6589, 1427)
+
+[node name="Node2D130" parent="." unique_id=1152821863 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6589, 960)
+
+[node name="Node2D131" parent="." unique_id=1549375510 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5855, 1433)
+
+[node name="Node2D132" parent="." unique_id=1544099609 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5855, 966)
+
+[node name="Node2D133" parent="." unique_id=1594761536 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6589, 498)
+
+[node name="Node2D134" parent="." unique_id=277813475 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6589, 31)
+
+[node name="Node2D135" parent="." unique_id=1683603899 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5855, 504)
+
+[node name="Node2D136" parent="." unique_id=2035687835 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5855, 37)
+
+[node name="Node2D137" parent="." unique_id=2133218954 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5095, 1420)
+
+[node name="Node2D138" parent="." unique_id=881935952 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5095, 953)
+
+[node name="Node2D139" parent="." unique_id=1519982591 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4361, 1426)
+
+[node name="Node2D140" parent="." unique_id=1886899303 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4361, 959)
+
+[node name="Node2D141" parent="." unique_id=485838644 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5095, 491)
+
+[node name="Node2D142" parent="." unique_id=1115985906 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5095, 24)
+
+[node name="Node2D143" parent="." unique_id=1678400242 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4361, 497)
+
+[node name="Node2D144" parent="." unique_id=1583945050 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4361, 30)
+
+[node name="Node2D145" parent="." unique_id=785628735 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6596, -437)
+
+[node name="Node2D146" parent="." unique_id=1774346788 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6596, -904)
+
+[node name="Node2D147" parent="." unique_id=402938369 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5862, -431)
+
+[node name="Node2D148" parent="." unique_id=1594478884 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5862, -898)
+
+[node name="Node2D149" parent="." unique_id=1899902133 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6596, -1366)
+
+[node name="Node2D150" parent="." unique_id=1566997179 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6596, -1833)
+
+[node name="Node2D151" parent="." unique_id=1240302418 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5862, -1360)
+
+[node name="Node2D152" parent="." unique_id=778933785 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5862, -1827)
+
+[node name="Node2D153" parent="." unique_id=1190699021 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5102, -444)
+
+[node name="Node2D154" parent="." unique_id=349915669 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5102, -911)
+
+[node name="Node2D155" parent="." unique_id=75166743 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4368, -438)
+
+[node name="Node2D156" parent="." unique_id=2105466492 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4368, -905)
+
+[node name="Node2D157" parent="." unique_id=384369646 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5102, -1373)
+
+[node name="Node2D158" parent="." unique_id=515687546 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5102, -1840)
+
+[node name="Node2D159" parent="." unique_id=412230107 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4368, -1367)
+
+[node name="Node2D160" parent="." unique_id=128075752 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4368, -1834)
+
+[node name="Node2D161" parent="." unique_id=479012100 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3602, 1420)
+
+[node name="Node2D162" parent="." unique_id=1160153428 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3602, 953)
+
+[node name="Node2D163" parent="." unique_id=1123886891 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2868, 1426)
+
+[node name="Node2D164" parent="." unique_id=1667724194 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2868, 959)
+
+[node name="Node2D165" parent="." unique_id=812163830 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3602, 491)
+
+[node name="Node2D166" parent="." unique_id=2047835308 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3602, 24)
+
+[node name="Node2D167" parent="." unique_id=643646031 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2868, 497)
+
+[node name="Node2D168" parent="." unique_id=1139042972 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2868, 30)
+
+[node name="Node2D169" parent="." unique_id=890166067 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2108, 1413)
+
+[node name="Node2D170" parent="." unique_id=1318452463 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2108, 946)
+
+[node name="Node2D171" parent="." unique_id=419616253 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1374, 1419)
+
+[node name="Node2D172" parent="." unique_id=1823395273 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1374, 952)
+
+[node name="Node2D173" parent="." unique_id=1253984630 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2108, 484)
+
+[node name="Node2D174" parent="." unique_id=1561598271 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2108, 17)
+
+[node name="Node2D175" parent="." unique_id=2029271176 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1374, 490)
+
+[node name="Node2D176" parent="." unique_id=388409058 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1374, 23)
+
+[node name="Node2D177" parent="." unique_id=659252281 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3609, -444)
+
+[node name="Node2D178" parent="." unique_id=1801611007 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3609, -911)
+
+[node name="Node2D179" parent="." unique_id=495986412 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2875, -438)
+
+[node name="Node2D180" parent="." unique_id=557156838 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2875, -905)
+
+[node name="Node2D181" parent="." unique_id=256930723 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3609, -1373)
+
+[node name="Node2D182" parent="." unique_id=2138898238 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3609, -1840)
+
+[node name="Node2D183" parent="." unique_id=2090553390 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2875, -1367)
+
+[node name="Node2D184" parent="." unique_id=139778350 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2875, -1834)
+
+[node name="Node2D185" parent="." unique_id=529362173 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2115, -451)
+
+[node name="Node2D186" parent="." unique_id=1501484994 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2115, -918)
+
+[node name="Node2D187" parent="." unique_id=876093490 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1381, -445)
+
+[node name="Node2D188" parent="." unique_id=645512961 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1381, -912)
+
+[node name="Node2D189" parent="." unique_id=294398792 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2115, -1380)
+
+[node name="Node2D190" parent="." unique_id=1815741524 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2115, -1847)
+
+[node name="Node2D191" parent="." unique_id=89826476 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1381, -1374)
+
+[node name="Node2D192" parent="." unique_id=1008629821 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1381, -1841)
+
+[node name="Node2D193" parent="." unique_id=123317993 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6569, 5114)
+
+[node name="Node2D194" parent="." unique_id=1022793573 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6569, 4647)
+
+[node name="Node2D195" parent="." unique_id=1937138243 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5835, 5120)
+
+[node name="Node2D196" parent="." unique_id=1163401538 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5835, 4653)
+
+[node name="Node2D197" parent="." unique_id=640522440 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6569, 4185)
+
+[node name="Node2D198" parent="." unique_id=20388361 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6569, 3718)
+
+[node name="Node2D199" parent="." unique_id=208232374 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5835, 4191)
+
+[node name="Node2D200" parent="." unique_id=2147319492 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5835, 3724)
+
+[node name="Node2D201" parent="." unique_id=793226311 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5075, 5107)
+
+[node name="Node2D202" parent="." unique_id=1165208784 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5075, 4640)
+
+[node name="Node2D203" parent="." unique_id=294704723 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4341, 5113)
+
+[node name="Node2D204" parent="." unique_id=237499632 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4341, 4646)
+
+[node name="Node2D205" parent="." unique_id=1065401436 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5075, 4178)
+
+[node name="Node2D206" parent="." unique_id=1281899813 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5075, 3711)
+
+[node name="Node2D207" parent="." unique_id=6994882 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4341, 4184)
+
+[node name="Node2D208" parent="." unique_id=524209296 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4341, 3717)
+
+[node name="Node2D209" parent="." unique_id=1314250683 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6576, 3250)
+
+[node name="Node2D210" parent="." unique_id=443806804 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6576, 2783)
+
+[node name="Node2D211" parent="." unique_id=1750045120 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5842, 3256)
+
+[node name="Node2D212" parent="." unique_id=1685136629 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5842, 2789)
+
+[node name="Node2D213" parent="." unique_id=1220078188 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6576, 2321)
+
+[node name="Node2D214" parent="." unique_id=102764049 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6576, 1854)
+
+[node name="Node2D215" parent="." unique_id=1575359078 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5842, 2327)
+
+[node name="Node2D216" parent="." unique_id=697307496 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5842, 1860)
+
+[node name="Node2D217" parent="." unique_id=383534138 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5082, 3243)
+
+[node name="Node2D218" parent="." unique_id=1568560241 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5082, 2776)
+
+[node name="Node2D219" parent="." unique_id=118152397 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4348, 3249)
+
+[node name="Node2D220" parent="." unique_id=1448091637 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4348, 2782)
+
+[node name="Node2D221" parent="." unique_id=1765472083 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5082, 2314)
+
+[node name="Node2D222" parent="." unique_id=2028279859 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5082, 1847)
+
+[node name="Node2D223" parent="." unique_id=161432649 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4348, 2320)
+
+[node name="Node2D224" parent="." unique_id=225024067 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4348, 1853)
+
+[node name="Node2D225" parent="." unique_id=920818675 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3582, 5107)
+
+[node name="Node2D226" parent="." unique_id=786360302 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3582, 4640)
+
+[node name="Node2D227" parent="." unique_id=1491589697 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2848, 5113)
+
+[node name="Node2D228" parent="." unique_id=597896983 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2848, 4646)
+
+[node name="Node2D229" parent="." unique_id=1754796605 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3582, 4178)
+
+[node name="Node2D230" parent="." unique_id=113898551 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3582, 3711)
+
+[node name="Node2D231" parent="." unique_id=502780273 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2848, 4184)
+
+[node name="Node2D232" parent="." unique_id=1806532279 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2848, 3717)
+
+[node name="Node2D233" parent="." unique_id=1476520003 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2088, 5100)
+
+[node name="Node2D234" parent="." unique_id=142367245 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2088, 4633)
+
+[node name="Node2D235" parent="." unique_id=1628385850 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1354, 5106)
+
+[node name="Node2D236" parent="." unique_id=1358274417 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1354, 4639)
+
+[node name="Node2D237" parent="." unique_id=979274797 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2088, 4171)
+
+[node name="Node2D238" parent="." unique_id=634372778 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2088, 3704)
+
+[node name="Node2D239" parent="." unique_id=734436155 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1354, 4177)
+
+[node name="Node2D240" parent="." unique_id=1617340020 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1354, 3710)
+
+[node name="Node2D241" parent="." unique_id=492351141 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3589, 3243)
+
+[node name="Node2D242" parent="." unique_id=388100521 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3589, 2776)
+
+[node name="Node2D243" parent="." unique_id=1281681086 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2855, 3249)
+
+[node name="Node2D244" parent="." unique_id=607871632 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2855, 2782)
+
+[node name="Node2D245" parent="." unique_id=1518663902 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3589, 2314)
+
+[node name="Node2D246" parent="." unique_id=1904378119 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3589, 1847)
+
+[node name="Node2D247" parent="." unique_id=1475828549 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2855, 2320)
+
+[node name="Node2D248" parent="." unique_id=1948217688 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2855, 1853)
+
+[node name="Node2D249" parent="." unique_id=1826992667 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2095, 3236)
+
+[node name="Node2D250" parent="." unique_id=740147079 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2095, 2769)
+
+[node name="Node2D251" parent="." unique_id=1054875758 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1361, 3242)
+
+[node name="Node2D252" parent="." unique_id=209238260 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1361, 2775)
+
+[node name="Node2D253" parent="." unique_id=1787868884 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2095, 2307)
+
+[node name="Node2D254" parent="." unique_id=2042971673 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2095, 1840)
+
+[node name="Node2D255" parent="." unique_id=312446867 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1361, 2313)
+
+[node name="Node2D256" parent="." unique_id=434001648 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1361, 1846)
+
+[node name="Node2D257" parent="." unique_id=1499796879 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-663, -5960)
+
+[node name="Node2D258" parent="." unique_id=1238362647 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-663, -6427)
+
+[node name="Node2D259" parent="." unique_id=178242159 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(71, -5954)
+
+[node name="Node2D260" parent="." unique_id=739449212 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(71, -6421)
+
+[node name="Node2D261" parent="." unique_id=2076349876 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-663, -6889)
+
+[node name="Node2D262" parent="." unique_id=582063549 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-663, -7356)
+
+[node name="Node2D263" parent="." unique_id=1815079901 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(71, -6883)
+
+[node name="Node2D264" parent="." unique_id=225629751 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(71, -7350)
+
+[node name="Node2D265" parent="." unique_id=1845667344 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(831, -5967)
+
+[node name="Node2D266" parent="." unique_id=2137799741 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(831, -6434)
+
+[node name="Node2D267" parent="." unique_id=1689218371 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1565, -5961)
+
+[node name="Node2D268" parent="." unique_id=1631726591 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1565, -6428)
+
+[node name="Node2D269" parent="." unique_id=1420689591 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(831, -6896)
+
+[node name="Node2D270" parent="." unique_id=5754490 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(831, -7363)
+
+[node name="Node2D271" parent="." unique_id=1080327866 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1565, -6890)
+
+[node name="Node2D272" parent="." unique_id=1969263692 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1565, -7357)
+
+[node name="Node2D273" parent="." unique_id=83136579 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-670, -7824)
+
+[node name="Node2D274" parent="." unique_id=1511859350 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-670, -8291)
+
+[node name="Node2D275" parent="." unique_id=1798770978 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(64, -7818)
+
+[node name="Node2D276" parent="." unique_id=1026831675 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(64, -8285)
+
+[node name="Node2D277" parent="." unique_id=764303082 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-670, -8753)
+
+[node name="Node2D278" parent="." unique_id=630962370 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-670, -9220)
+
+[node name="Node2D279" parent="." unique_id=2091100942 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(64, -8747)
+
+[node name="Node2D280" parent="." unique_id=653167064 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(64, -9214)
+
+[node name="Node2D281" parent="." unique_id=1031608603 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(824, -7831)
+
+[node name="Node2D282" parent="." unique_id=15941141 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(824, -8298)
+
+[node name="Node2D283" parent="." unique_id=1777910401 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1558, -7825)
+
+[node name="Node2D284" parent="." unique_id=1516556413 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1558, -8292)
+
+[node name="Node2D285" parent="." unique_id=860280461 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(824, -8760)
+
+[node name="Node2D286" parent="." unique_id=151111369 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(824, -9227)
+
+[node name="Node2D287" parent="." unique_id=472472807 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1558, -8754)
+
+[node name="Node2D288" parent="." unique_id=321968471 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1558, -9221)
+
+[node name="Node2D289" parent="." unique_id=348076840 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2324, -5967)
+
+[node name="Node2D290" parent="." unique_id=1537667090 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2324, -6434)
+
+[node name="Node2D291" parent="." unique_id=777172472 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3058, -5961)
+
+[node name="Node2D292" parent="." unique_id=359288060 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3058, -6428)
+
+[node name="Node2D293" parent="." unique_id=862468011 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2324, -6896)
+
+[node name="Node2D294" parent="." unique_id=433746119 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2324, -7363)
+
+[node name="Node2D295" parent="." unique_id=326885909 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3058, -6890)
+
+[node name="Node2D296" parent="." unique_id=1130694650 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3058, -7357)
+
+[node name="Node2D297" parent="." unique_id=214649374 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3818, -5974)
+
+[node name="Node2D298" parent="." unique_id=972082375 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3818, -6441)
+
+[node name="Node2D299" parent="." unique_id=1897166070 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4552, -5968)
+
+[node name="Node2D300" parent="." unique_id=1175025565 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4552, -6435)
+
+[node name="Node2D301" parent="." unique_id=1798939448 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3818, -6903)
+
+[node name="Node2D302" parent="." unique_id=1636247904 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3818, -7370)
+
+[node name="Node2D303" parent="." unique_id=631753287 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4552, -6897)
+
+[node name="Node2D304" parent="." unique_id=22350779 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4552, -7364)
+
+[node name="Node2D305" parent="." unique_id=327444683 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2317, -7831)
+
+[node name="Node2D306" parent="." unique_id=484977181 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2317, -8298)
+
+[node name="Node2D307" parent="." unique_id=1869785078 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3051, -7825)
+
+[node name="Node2D308" parent="." unique_id=1628632440 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3051, -8292)
+
+[node name="Node2D309" parent="." unique_id=1378306379 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2317, -8760)
+
+[node name="Node2D310" parent="." unique_id=101698260 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2317, -9227)
+
+[node name="Node2D311" parent="." unique_id=1256755784 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3051, -8754)
+
+[node name="Node2D312" parent="." unique_id=889113557 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3051, -9221)
+
+[node name="Node2D313" parent="." unique_id=1796597508 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3811, -7838)
+
+[node name="Node2D314" parent="." unique_id=487718586 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3811, -8305)
+
+[node name="Node2D315" parent="." unique_id=221075125 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4545, -7832)
+
+[node name="Node2D316" parent="." unique_id=1515493999 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4545, -8299)
+
+[node name="Node2D317" parent="." unique_id=1320970683 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3811, -8767)
+
+[node name="Node2D318" parent="." unique_id=1121850013 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3811, -9234)
+
+[node name="Node2D319" parent="." unique_id=531831992 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4545, -8761)
+
+[node name="Node2D320" parent="." unique_id=1525314019 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4545, -9228)
+
+[node name="Node2D321" parent="." unique_id=1343367077 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-643, -2273)
+
+[node name="Node2D322" parent="." unique_id=117112748 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-643, -2740)
+
+[node name="Node2D323" parent="." unique_id=1585967416 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(91, -2267)
+
+[node name="Node2D324" parent="." unique_id=2012988902 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(91, -2734)
+
+[node name="Node2D325" parent="." unique_id=1031462477 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-643, -3202)
+
+[node name="Node2D326" parent="." unique_id=201024408 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-643, -3669)
+
+[node name="Node2D327" parent="." unique_id=1855502535 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(91, -3196)
+
+[node name="Node2D328" parent="." unique_id=1987028124 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(91, -3663)
+
+[node name="Node2D329" parent="." unique_id=1901144744 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(851, -2280)
+
+[node name="Node2D330" parent="." unique_id=978095735 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(851, -2747)
+
+[node name="Node2D331" parent="." unique_id=995190726 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1585, -2274)
+
+[node name="Node2D332" parent="." unique_id=76792805 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1585, -2741)
+
+[node name="Node2D333" parent="." unique_id=952737099 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(851, -3209)
+
+[node name="Node2D334" parent="." unique_id=1231617038 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(851, -3676)
+
+[node name="Node2D335" parent="." unique_id=1725645622 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1585, -3203)
+
+[node name="Node2D336" parent="." unique_id=1914274093 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1585, -3670)
+
+[node name="Node2D337" parent="." unique_id=192940549 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-650, -4137)
+
+[node name="Node2D338" parent="." unique_id=1945040077 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-650, -4604)
+
+[node name="Node2D339" parent="." unique_id=64655202 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(84, -4131)
+
+[node name="Node2D340" parent="." unique_id=1211311535 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(84, -4598)
+
+[node name="Node2D341" parent="." unique_id=1453751014 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-650, -5066)
+
+[node name="Node2D342" parent="." unique_id=814816898 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-650, -5533)
+
+[node name="Node2D343" parent="." unique_id=1148685086 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(84, -5060)
+
+[node name="Node2D344" parent="." unique_id=1184290798 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(84, -5527)
+
+[node name="Node2D345" parent="." unique_id=2089527030 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(844, -4144)
+
+[node name="Node2D346" parent="." unique_id=161898527 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(844, -4611)
+
+[node name="Node2D347" parent="." unique_id=465968791 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1578, -4138)
+
+[node name="Node2D348" parent="." unique_id=582994769 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1578, -4605)
+
+[node name="Node2D349" parent="." unique_id=173092260 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(844, -5073)
+
+[node name="Node2D350" parent="." unique_id=17568063 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(844, -5540)
+
+[node name="Node2D351" parent="." unique_id=588603717 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1578, -5067)
+
+[node name="Node2D352" parent="." unique_id=1040630134 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(1578, -5534)
+
+[node name="Node2D353" parent="." unique_id=1033295174 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2344, -2280)
+
+[node name="Node2D354" parent="." unique_id=681074093 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2344, -2747)
+
+[node name="Node2D355" parent="." unique_id=823594719 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3078, -2274)
+
+[node name="Node2D356" parent="." unique_id=1849714497 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3078, -2741)
+
+[node name="Node2D357" parent="." unique_id=29993856 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2344, -3209)
+
+[node name="Node2D358" parent="." unique_id=1101655622 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2344, -3676)
+
+[node name="Node2D359" parent="." unique_id=1864194392 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3078, -3203)
+
+[node name="Node2D360" parent="." unique_id=939294551 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3078, -3670)
+
+[node name="Node2D361" parent="." unique_id=501042957 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3838, -2287)
+
+[node name="Node2D362" parent="." unique_id=1425379114 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3838, -2754)
+
+[node name="Node2D363" parent="." unique_id=1026475379 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4572, -2281)
+
+[node name="Node2D364" parent="." unique_id=1180309159 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4572, -2748)
+
+[node name="Node2D365" parent="." unique_id=2145460699 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3838, -3216)
+
+[node name="Node2D366" parent="." unique_id=88398530 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3838, -3683)
+
+[node name="Node2D367" parent="." unique_id=615298600 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4572, -3210)
+
+[node name="Node2D368" parent="." unique_id=1577694491 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4572, -3677)
+
+[node name="Node2D369" parent="." unique_id=531044374 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2337, -4144)
+
+[node name="Node2D370" parent="." unique_id=1470370440 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2337, -4611)
+
+[node name="Node2D371" parent="." unique_id=1536260596 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3071, -4138)
+
+[node name="Node2D372" parent="." unique_id=2124747474 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3071, -4605)
+
+[node name="Node2D373" parent="." unique_id=1247301894 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2337, -5073)
+
+[node name="Node2D374" parent="." unique_id=1685594153 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(2337, -5540)
+
+[node name="Node2D375" parent="." unique_id=214911693 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3071, -5067)
+
+[node name="Node2D376" parent="." unique_id=757468146 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3071, -5534)
+
+[node name="Node2D377" parent="." unique_id=1795012203 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3831, -4151)
+
+[node name="Node2D378" parent="." unique_id=1390066396 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3831, -4618)
+
+[node name="Node2D379" parent="." unique_id=365240943 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4565, -4145)
+
+[node name="Node2D380" parent="." unique_id=1716246697 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4565, -4612)
+
+[node name="Node2D381" parent="." unique_id=2097977734 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3831, -5080)
+
+[node name="Node2D382" parent="." unique_id=459822773 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(3831, -5547)
+
+[node name="Node2D383" parent="." unique_id=2147137843 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4565, -5074)
+
+[node name="Node2D384" parent="." unique_id=1415801642 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(4565, -5541)
+
+[node name="Node2D385" parent="." unique_id=722788585 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6583, -5980)
+
+[node name="Node2D386" parent="." unique_id=497782730 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6583, -6447)
+
+[node name="Node2D387" parent="." unique_id=2016026080 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5849, -5974)
+
+[node name="Node2D388" parent="." unique_id=1963807021 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5849, -6441)
+
+[node name="Node2D389" parent="." unique_id=1975269316 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6583, -6909)
+
+[node name="Node2D390" parent="." unique_id=1752871466 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6583, -7376)
+
+[node name="Node2D391" parent="." unique_id=1823490231 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5849, -6903)
+
+[node name="Node2D392" parent="." unique_id=2093743976 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5849, -7370)
+
+[node name="Node2D393" parent="." unique_id=389306597 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5089, -5987)
+
+[node name="Node2D394" parent="." unique_id=756169913 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5089, -6454)
+
+[node name="Node2D395" parent="." unique_id=513336678 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4355, -5981)
+
+[node name="Node2D396" parent="." unique_id=1208749644 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4355, -6448)
+
+[node name="Node2D397" parent="." unique_id=1091622705 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5089, -6916)
+
+[node name="Node2D398" parent="." unique_id=1734382766 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5089, -7383)
+
+[node name="Node2D399" parent="." unique_id=719298872 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4355, -6910)
+
+[node name="Node2D400" parent="." unique_id=1351111740 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4355, -7377)
+
+[node name="Node2D401" parent="." unique_id=1762166386 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6590, -7844)
+
+[node name="Node2D402" parent="." unique_id=96197591 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6590, -8311)
+
+[node name="Node2D403" parent="." unique_id=2065994127 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5856, -7838)
+
+[node name="Node2D404" parent="." unique_id=591936889 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5856, -8305)
+
+[node name="Node2D405" parent="." unique_id=938484612 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6590, -8773)
+
+[node name="Node2D406" parent="." unique_id=612092518 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6590, -9240)
+
+[node name="Node2D407" parent="." unique_id=812358356 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5856, -8767)
+
+[node name="Node2D408" parent="." unique_id=284767736 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5856, -9234)
+
+[node name="Node2D409" parent="." unique_id=772513329 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5096, -7851)
+
+[node name="Node2D410" parent="." unique_id=2121074778 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5096, -8318)
+
+[node name="Node2D411" parent="." unique_id=478365929 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4362, -7845)
+
+[node name="Node2D412" parent="." unique_id=596283107 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4362, -8312)
+
+[node name="Node2D413" parent="." unique_id=1574618927 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5096, -8780)
+
+[node name="Node2D414" parent="." unique_id=1894048008 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5096, -9247)
+
+[node name="Node2D415" parent="." unique_id=1878665568 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4362, -8774)
+
+[node name="Node2D416" parent="." unique_id=1984335461 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4362, -9241)
+
+[node name="Node2D417" parent="." unique_id=2010078256 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3596, -5987)
+
+[node name="Node2D418" parent="." unique_id=1240061105 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3596, -6454)
+
+[node name="Node2D419" parent="." unique_id=1055595709 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2862, -5981)
+
+[node name="Node2D420" parent="." unique_id=2051019124 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2862, -6448)
+
+[node name="Node2D421" parent="." unique_id=1228333104 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3596, -6916)
+
+[node name="Node2D422" parent="." unique_id=1874745128 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3596, -7383)
+
+[node name="Node2D423" parent="." unique_id=255273039 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2862, -6910)
+
+[node name="Node2D424" parent="." unique_id=1356947763 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2862, -7377)
+
+[node name="Node2D425" parent="." unique_id=530015854 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2102, -5994)
+
+[node name="Node2D426" parent="." unique_id=923150652 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2102, -6461)
+
+[node name="Node2D427" parent="." unique_id=1702673373 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1368, -5988)
+
+[node name="Node2D428" parent="." unique_id=1400274722 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1368, -6455)
+
+[node name="Node2D429" parent="." unique_id=287524988 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2102, -6923)
+
+[node name="Node2D430" parent="." unique_id=1682938456 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2102, -7390)
+
+[node name="Node2D431" parent="." unique_id=1260524603 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1368, -6917)
+
+[node name="Node2D432" parent="." unique_id=172927281 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1368, -7384)
+
+[node name="Node2D433" parent="." unique_id=244889443 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3603, -7851)
+
+[node name="Node2D434" parent="." unique_id=1827811353 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3603, -8318)
+
+[node name="Node2D435" parent="." unique_id=56377907 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2869, -7845)
+
+[node name="Node2D436" parent="." unique_id=2143083718 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2869, -8312)
+
+[node name="Node2D437" parent="." unique_id=1886885013 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3603, -8780)
+
+[node name="Node2D438" parent="." unique_id=1961224580 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3603, -9247)
+
+[node name="Node2D439" parent="." unique_id=522900366 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2869, -8774)
+
+[node name="Node2D440" parent="." unique_id=1414383445 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2869, -9241)
+
+[node name="Node2D441" parent="." unique_id=382932823 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2109, -7858)
+
+[node name="Node2D442" parent="." unique_id=279551320 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2109, -8325)
+
+[node name="Node2D443" parent="." unique_id=3499198 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1375, -7852)
+
+[node name="Node2D444" parent="." unique_id=336296313 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1375, -8319)
+
+[node name="Node2D445" parent="." unique_id=2010689553 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2109, -8787)
+
+[node name="Node2D446" parent="." unique_id=82172692 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2109, -9254)
+
+[node name="Node2D447" parent="." unique_id=1633005333 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1375, -8781)
+
+[node name="Node2D448" parent="." unique_id=1940575412 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1375, -9248)
+
+[node name="Node2D449" parent="." unique_id=488064855 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6563, -2293)
+
+[node name="Node2D450" parent="." unique_id=355122909 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6563, -2760)
+
+[node name="Node2D451" parent="." unique_id=883110875 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5829, -2287)
+
+[node name="Node2D452" parent="." unique_id=854000824 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5829, -2754)
+
+[node name="Node2D453" parent="." unique_id=517157401 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6563, -3222)
+
+[node name="Node2D454" parent="." unique_id=1888453272 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6563, -3689)
+
+[node name="Node2D455" parent="." unique_id=392003689 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5829, -3216)
+
+[node name="Node2D456" parent="." unique_id=1462220216 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5829, -3683)
+
+[node name="Node2D457" parent="." unique_id=1423922076 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5069, -2300)
+
+[node name="Node2D458" parent="." unique_id=318988990 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5069, -2767)
+
+[node name="Node2D459" parent="." unique_id=653881324 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4335, -2294)
+
+[node name="Node2D460" parent="." unique_id=475139713 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4335, -2761)
+
+[node name="Node2D461" parent="." unique_id=2040697568 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5069, -3229)
+
+[node name="Node2D462" parent="." unique_id=879595598 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5069, -3696)
+
+[node name="Node2D463" parent="." unique_id=2091077290 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4335, -3223)
+
+[node name="Node2D464" parent="." unique_id=82146409 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4335, -3690)
+
+[node name="Node2D465" parent="." unique_id=617069339 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6570, -4157)
+
+[node name="Node2D466" parent="." unique_id=1426527627 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6570, -4624)
+
+[node name="Node2D467" parent="." unique_id=1918057023 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5836, -4151)
+
+[node name="Node2D468" parent="." unique_id=1199036136 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5836, -4618)
+
+[node name="Node2D469" parent="." unique_id=1496319357 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6570, -5086)
+
+[node name="Node2D470" parent="." unique_id=1692627870 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-6570, -5553)
+
+[node name="Node2D471" parent="." unique_id=844837275 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5836, -5080)
+
+[node name="Node2D472" parent="." unique_id=5373438 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5836, -5547)
+
+[node name="Node2D473" parent="." unique_id=1335309753 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5076, -4164)
+
+[node name="Node2D474" parent="." unique_id=1869580945 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5076, -4631)
+
+[node name="Node2D475" parent="." unique_id=905546078 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4342, -4158)
+
+[node name="Node2D476" parent="." unique_id=1842909742 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4342, -4625)
+
+[node name="Node2D477" parent="." unique_id=1616628470 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5076, -5093)
+
+[node name="Node2D478" parent="." unique_id=1998516815 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-5076, -5560)
+
+[node name="Node2D479" parent="." unique_id=1527670186 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4342, -5087)
+
+[node name="Node2D480" parent="." unique_id=1064233006 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-4342, -5554)
+
+[node name="Node2D481" parent="." unique_id=1061945260 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3576, -2300)
+
+[node name="Node2D482" parent="." unique_id=518164488 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3576, -2767)
+
+[node name="Node2D483" parent="." unique_id=1671145057 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2842, -2294)
+
+[node name="Node2D484" parent="." unique_id=1088458164 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2842, -2761)
+
+[node name="Node2D485" parent="." unique_id=860701792 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3576, -3229)
+
+[node name="Node2D486" parent="." unique_id=538596410 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3576, -3696)
+
+[node name="Node2D487" parent="." unique_id=1420374281 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2842, -3223)
+
+[node name="Node2D488" parent="." unique_id=285657565 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2842, -3690)
+
+[node name="Node2D489" parent="." unique_id=963409895 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2082, -2307)
+
+[node name="Node2D490" parent="." unique_id=831547388 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2082, -2774)
+
+[node name="Node2D491" parent="." unique_id=2004211765 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1348, -2301)
+
+[node name="Node2D492" parent="." unique_id=542114597 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1348, -2768)
+
+[node name="Node2D493" parent="." unique_id=267317082 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2082, -3236)
+
+[node name="Node2D494" parent="." unique_id=749442573 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2082, -3703)
+
+[node name="Node2D495" parent="." unique_id=1264683032 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1348, -3230)
+
+[node name="Node2D496" parent="." unique_id=1509615350 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1348, -3697)
+
+[node name="Node2D497" parent="." unique_id=1949792536 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3583, -4164)
+
+[node name="Node2D498" parent="." unique_id=1620707615 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3583, -4631)
+
+[node name="Node2D499" parent="." unique_id=1776980138 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2849, -4158)
+
+[node name="Node2D500" parent="." unique_id=303390110 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2849, -4625)
+
+[node name="Node2D501" parent="." unique_id=1082784576 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3583, -5093)
+
+[node name="Node2D502" parent="." unique_id=564932343 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-3583, -5560)
+
+[node name="Node2D503" parent="." unique_id=1036253004 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2849, -5087)
+
+[node name="Node2D504" parent="." unique_id=1535458609 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2849, -5554)
+
+[node name="Node2D505" parent="." unique_id=110143987 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2089, -4171)
+
+[node name="Node2D506" parent="." unique_id=146465875 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2089, -4638)
+
+[node name="Node2D507" parent="." unique_id=596391558 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1355, -4165)
+
+[node name="Node2D508" parent="." unique_id=1469129299 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1355, -4632)
+
+[node name="Node2D509" parent="." unique_id=517168229 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2089, -5100)
+
+[node name="Node2D510" parent="." unique_id=853757301 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-2089, -5567)
+
+[node name="Node2D511" parent="." unique_id=76424517 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1355, -5094)
+
+[node name="Node2D512" parent="." unique_id=2059904980 instance=ExtResource("9_85g3d")]
+z_as_relative = false
+position = Vector2(-1355, -5561)

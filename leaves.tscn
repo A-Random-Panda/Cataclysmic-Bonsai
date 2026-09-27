@@ -1,0 +1,538 @@
+[gd_scene format=3 uid="uid://b722nipd05qsm"]
+
+[ext_resource type="Texture2D" uid="uid://cftssmn6ugp8u" path="res://assets/leaves-pixilart.png" id="1_iq52i"]
+
+[node name="Node2D" type="Node2D" unique_id=992368975]
+
+[node name="LeavesPixilart" type="Sprite2D" parent="." unique_id=1212894838]
+position = Vector2(325, 203)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="LeavesPixilart" unique_id=545226955]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="LeavesPixilart" unique_id=593879877]
+position = Vector2(18, 58)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart2" unique_id=1593671499]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart2" unique_id=645724257]
+position = Vector2(-143, 5)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart2/LeavesPixilart2" unique_id=737450002]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart3" type="Sprite2D" parent="LeavesPixilart" unique_id=1769401971]
+position = Vector2(21, -115)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart3" unique_id=415814731]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart3" unique_id=114562135]
+position = Vector2(18, 58)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart3/LeavesPixilart2" unique_id=233359288]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart3/LeavesPixilart2" unique_id=321359823]
+position = Vector2(-143, 5)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart3/LeavesPixilart2/LeavesPixilart2" unique_id=2137053592]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart4" type="Sprite2D" parent="LeavesPixilart" unique_id=1800359216]
+position = Vector2(164, 4.0000305)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart4" unique_id=1480690120]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart4" unique_id=1593654104]
+position = Vector2(18, 58)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart4/LeavesPixilart2" unique_id=1437992595]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart4/LeavesPixilart2" unique_id=1095011719]
+position = Vector2(-143, 5)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart4/LeavesPixilart2/LeavesPixilart2" unique_id=636820524]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart3" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart4" unique_id=2080715266]
+position = Vector2(21, -115)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart4/LeavesPixilart3" unique_id=773425711]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart4/LeavesPixilart3" unique_id=1467674639]
+position = Vector2(18, 58)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2" unique_id=197541313]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2" unique_id=343931745]
+position = Vector2(-143, 5)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2/LeavesPixilart2" unique_id=886619738]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="Node2D" type="Node2D" parent="." unique_id=1350331517]
+position = Vector2(313, 356)
+rotation = 3.1415927
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D" unique_id=1894152014]
+position = Vector2(325, 203)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart" unique_id=977726736]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D/LeavesPixilart" unique_id=962106174]
+position = Vector2(18, 58)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart2" unique_id=1912073158]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart2" unique_id=278569995]
+position = Vector2(-143, 5)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart2/LeavesPixilart2" unique_id=1631908531]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart3" type="Sprite2D" parent="Node2D/LeavesPixilart" unique_id=201580923]
+position = Vector2(21, -115)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart3" unique_id=610800751]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart3" unique_id=408185826]
+position = Vector2(18, 58)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart3/LeavesPixilart2" unique_id=1172119099]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart3/LeavesPixilart2" unique_id=949725288]
+position = Vector2(-143, 5)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart3/LeavesPixilart2/LeavesPixilart2" unique_id=1677337687]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart4" type="Sprite2D" parent="Node2D/LeavesPixilart" unique_id=1936633291]
+position = Vector2(164, 4.0000305)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4" unique_id=1011277183]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4" unique_id=1150437725]
+position = Vector2(18, 58)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart2" unique_id=77004595]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart2/LeavesPixilart" unique_id=1875216568]
+position = Vector2(38.09498, -51.978996)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart2/LeavesPixilart" unique_id=1214266439]
+position = Vector2(-25.905022, -44.978996)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart2/LeavesPixilart/LeavesPixilart2" unique_id=1986380430]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart2/LeavesPixilart/LeavesPixilart2" unique_id=1422637582]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart3" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart2/LeavesPixilart/LeavesPixilart2" unique_id=1815489267]
+position = Vector2(-143, 5)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart2/LeavesPixilart/LeavesPixilart2/LeavesPixilart3" unique_id=484523673]
+position = Vector2(-43.25841, -63.343796)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart2" unique_id=939736886]
+position = Vector2(-143, 5)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart2/LeavesPixilart2" unique_id=747659259]
+position = Vector2(104.636536, -131.52583)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart2/LeavesPixilart2/LeavesPixilart" unique_id=1792391131]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart2/LeavesPixilart2/LeavesPixilart" unique_id=1186277116]
+position = Vector2(-143, 5)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart2/LeavesPixilart2/LeavesPixilart/LeavesPixilart2" unique_id=1574218404]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart3" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4" unique_id=1099965708]
+position = Vector2(21, -115)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3" unique_id=211300878]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3" unique_id=1216159861]
+position = Vector2(18, 58)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2" unique_id=121116406]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2" unique_id=519132849]
+position = Vector2(-143, 5)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2/LeavesPixilart2" unique_id=136828441]
+position = Vector2(104.2755, -182.75737)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2/LeavesPixilart2/LeavesPixilart" unique_id=11296600]
+position = Vector2(54.624355, -66.61215)
+rotation = 2.8797934
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2/LeavesPixilart2/LeavesPixilart" unique_id=2143395093]
+position = Vector2(32.25952, -147.54987)
+rotation = 2.8797934
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2/LeavesPixilart2/LeavesPixilart/LeavesPixilart2" unique_id=800063501]
+position = Vector2(362.09134, 316.96124)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2/LeavesPixilart2/LeavesPixilart/LeavesPixilart2" unique_id=346239203]
+position = Vector2(96.25952, -154.54987)
+rotation = 2.8797934
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart3" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2/LeavesPixilart2/LeavesPixilart/LeavesPixilart2" unique_id=297536712]
+position = Vector2(32.25952, -147.54987)
+rotation = 2.8797934
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2/LeavesPixilart2/LeavesPixilart/LeavesPixilart2/LeavesPixilart3" unique_id=318154561]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="Node2D2" type="Node2D" parent="." unique_id=1140741600]
+position = Vector2(0, 238.49)
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2" unique_id=1872901299]
+position = Vector2(325, 203)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/LeavesPixilart" unique_id=289208425]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/LeavesPixilart" unique_id=757898711]
+position = Vector2(18, 58)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart2" unique_id=159962543]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart2" unique_id=532834429]
+position = Vector2(-143, 5)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart2/LeavesPixilart2" unique_id=2132515353]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart3" type="Sprite2D" parent="Node2D2/LeavesPixilart" unique_id=267777930]
+position = Vector2(21, -115)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart3" unique_id=1697304460]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart3" unique_id=2111004631]
+position = Vector2(18, 58)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart3/LeavesPixilart2" unique_id=2068257055]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart3/LeavesPixilart2" unique_id=1665435403]
+position = Vector2(-143, 5)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart3/LeavesPixilart2/LeavesPixilart2" unique_id=600313151]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart4" type="Sprite2D" parent="Node2D2/LeavesPixilart" unique_id=202605748]
+position = Vector2(164, 4.0000305)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart4" unique_id=1447893864]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart4" unique_id=1394192512]
+position = Vector2(18, 58)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart4/LeavesPixilart2" unique_id=2000144730]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart4/LeavesPixilart2" unique_id=589939845]
+position = Vector2(-143, 5)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart4/LeavesPixilart2/LeavesPixilart2" unique_id=1953107768]
+position = Vector2(-72.64548, -51.901875)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart3" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart4" unique_id=169448301]
+position = Vector2(21, -115)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart4/LeavesPixilart3" unique_id=1049855817]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart4/LeavesPixilart3" unique_id=1685862376]
+position = Vector2(18, 58)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2" unique_id=457081340]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2" unique_id=210596628]
+position = Vector2(-143, 5)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2/LeavesPixilart2" unique_id=253334239]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="Node2D" type="Node2D" parent="Node2D2" unique_id=796100978]
+position = Vector2(313, 356)
+rotation = 3.1415927
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/Node2D" unique_id=681757378]
+position = Vector2(325, 203)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart" unique_id=843312570]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart" unique_id=291891976]
+position = Vector2(18, 58)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart2" unique_id=452908619]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart2" unique_id=1700875710]
+position = Vector2(-143, 5)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart2/LeavesPixilart2" unique_id=476981090]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart3" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart" unique_id=911849130]
+position = Vector2(21, -115)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart3" unique_id=1222042255]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart3" unique_id=1109598300]
+position = Vector2(18, 58)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart3/LeavesPixilart2" unique_id=1015769573]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart3/LeavesPixilart2" unique_id=888575910]
+position = Vector2(-143, 5)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart3/LeavesPixilart2/LeavesPixilart2" unique_id=1850121131]
+position = Vector2(-79, -2)
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart4" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart" unique_id=1675636740]
+position = Vector2(164, 4.0000305)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart4" unique_id=65896962]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart4" unique_id=1348306091]
+position = Vector2(18, 58)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart2" unique_id=1316236552]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart2" unique_id=1289750746]
+position = Vector2(-143, 5)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart2/LeavesPixilart2" unique_id=7112352]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart3" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart4" unique_id=502970862]
+position = Vector2(21, -115)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3" unique_id=2070613956]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3" unique_id=1936902221]
+position = Vector2(18, 58)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2" unique_id=1311388133]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2" unique_id=382861006]
+position = Vector2(-143, 5)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="Node2D2/Node2D/LeavesPixilart/LeavesPixilart4/LeavesPixilart3/LeavesPixilart2/LeavesPixilart2" unique_id=1369857071]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart2" type="Sprite2D" parent="." unique_id=1373499842]
+position = Vector2(404, 250)
+rotation = 2.8797934
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart3" type="Sprite2D" parent="." unique_id=1660792760]
+position = Vector2(385, 143)
+rotation = 2.8797934
+texture = ExtResource("1_iq52i")
+
+[node name="LeavesPixilart" type="Sprite2D" parent="LeavesPixilart3" unique_id=417674380]
+position = Vector2(-79, -2)
+rotation = -0.10471976
+texture = ExtResource("1_iq52i")

@@ -22,7 +22,7 @@ func _process(delta: float) -> void:
 			dead = true
 		if grabbed:
 			position.x = get_tree().current_scene.get_node("Player").position.x
-			position.y = get_tree().current_scene.get_node("Player").position.y - 70
+			position.y = get_tree().current_scene.get_node("Player").position.y - 62
 		
 func _on_task_finished(args) -> void:
 	var task_type = args[0]

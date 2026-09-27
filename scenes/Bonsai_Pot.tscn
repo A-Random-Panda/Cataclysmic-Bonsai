@@ -15,7 +15,7 @@ z_index = 16
 script = ExtResource("1_tccnq")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=885110461]
-position = Vector2(-57.400005, -127.52501)
+position = Vector2(-56.400005, -111.52501)
 
 [node name="Image" type="Sprite2D" parent="StaticBody2D" unique_id=297674934]
 position = Vector2(54.90001, 63.400017)
@@ -29,10 +29,10 @@ polygon = PackedVector2Array(-4, -3, 7.500004, 95.12501, 17.500004, 108.12501, 8
 [node name="Control" type="Control" parent="." unique_id=1731453921]
 layout_mode = 3
 anchors_preset = 0
-offset_left = 5.0
-offset_top = -159.0
-offset_right = 45.0
-offset_bottom = -119.0
+offset_left = 6.0
+offset_top = -143.0
+offset_right = 46.0
+offset_bottom = -103.0
 metadata/_edit_use_anchors_ = true
 
 [node name="ProgressBar" type="ProgressBar" parent="Control" unique_id=1459653739]
@@ -55,17 +55,17 @@ script = ExtResource("3_xx31s")
 metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="." unique_id=864602451]
-offset_left = -247.0
-offset_top = -180.0
-offset_right = 248.0
-offset_bottom = -157.0
+offset_left = -246.0
+offset_top = -164.0
+offset_right = 249.0
+offset_bottom = -141.0
 horizontal_alignment = 1
 
 [node name="SizeLabel" type="Label" parent="." unique_id=1084616810]
-offset_left = -139.0
-offset_top = -132.0
-offset_right = 142.0
-offset_bottom = -109.0
+offset_left = -138.0
+offset_top = -116.0
+offset_right = 143.0
+offset_bottom = -93.0
 text = "100"
 horizontal_alignment = 1
 

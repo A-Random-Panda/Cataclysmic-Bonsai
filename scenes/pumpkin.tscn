@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://cgkal5ihb4vl1"]
+
+[ext_resource type="Texture2D" uid="uid://c2m34tw16tnpl" path="res://assets/Pumpkin.png" id="1_qdl88"]
+
+[node name="Pumpkin" type="Sprite2D" unique_id=509817588]
+z_index = 3
+scale = Vector2(3, 3)
+texture = ExtResource("1_qdl88")

@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://dtgiad2a34yue" path="res://assets/tile_map2.png" id="3_tipki"]
 [ext_resource type="PackedScene" uid="uid://b6kmtyy8jsxb2" path="res://scenes/player.tscn" id="5_choun"]
 [ext_resource type="PackedScene" uid="uid://b6dqpa8i7xuys" path="res://scenes/Bonsai_Pot.tscn" id="6_ya4ey"]
+[ext_resource type="PackedScene" uid="uid://cgkal5ihb4vl1" path="res://scenes/pumpkin.tscn" id="8_85g3d"]
 [ext_resource type="PackedScene" uid="uid://bbj8o5jqq0e2o" path="res://scenes/tree.tscn" id="8_tipki"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_choun"]
@@ -290,3 +291,9 @@ position = Vector2(1584, 181)
 
 [node name="Tree36" parent="Forest" unique_id=1356780225 instance=ExtResource("8_tipki")]
 position = Vector2(1869, -948)
+
+[node name="Pumpkin" parent="." unique_id=1935170104 instance=ExtResource("8_85g3d")]
+position = Vector2(-5832, 1056)
+
+[node name="Pumpkin2" parent="." unique_id=1989740786 instance=ExtResource("8_85g3d")]
+position = Vector2(-941, 491)

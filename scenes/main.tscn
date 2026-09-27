@@ -14,18 +14,22 @@
 texture = ExtResource("1_tefeu")
 0:0/size_in_atlas = Vector2i(2, 2)
 0:0/0 = 0
+0:0/0/z_index = 1
 0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-15.980487, -16.045183, 16.045183, -15.980485, 16.012835, 16.012836, -15.948137, 16.012836)
 0:0/0/custom_data_0 = "rock"
 2:0/size_in_atlas = Vector2i(2, 2)
 2:0/0 = 0
+2:0/0/z_index = 1
 2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-15.980487, -16.045183, 16.045183, -15.980485, 16.012835, 16.012836, -15.948137, 16.012836)
 2:0/0/custom_data_0 = "rock"
 0:2/size_in_atlas = Vector2i(2, 2)
 0:2/0 = 0
+0:2/0/z_index = 1
 0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-15.980487, -16.045183, 16.045183, -15.980485, 16.012835, 16.012836, -15.948137, 16.012836)
 0:2/0/custom_data_0 = "rock"
 2:2/size_in_atlas = Vector2i(2, 2)
 2:2/0 = 0
+2:2/0/z_index = 1
 2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-15.980487, -16.045183, 16.045183, -15.980485, 16.012835, 16.012836, -15.948137, 16.012836)
 2:2/0/custom_data_0 = "rock"
 
@@ -64,12 +68,16 @@ texture_region_size = Vector2i(32, 32)
 texture = ExtResource("3_85g3d")
 texture_region_size = Vector2i(32, 32)
 0:0/0 = 0
+0:0/0/z_index = 1
 0:0/0/custom_data_0 = "dance"
 1:0/0 = 0
+1:0/0/z_index = 1
 1:0/0/custom_data_0 = "dance"
 0:1/0 = 0
+0:1/0/z_index = 1
 0:1/0/custom_data_0 = "dance"
 1:1/0 = 0
+1:1/0/z_index = 1
 1:1/0/custom_data_0 = "dance"
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_eb6dy"]

@@ -42,3 +42,10 @@ func get_tile():
 		return data.get_custom_data("type")
 	else:
 		return "grass"
+
+
+func _on_grab_area_body_entered(body: Node2D) -> void:
+	if body.get_parent().name == "BonsaiPot":
+		get_tree().current_scene.get_node("BonsaiPot").emit_signal("is_grabbed",position)
+
+		

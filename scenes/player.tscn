@@ -17,6 +17,23 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tdlnn"]
 size = Vector2(39, 63)
 
+[sub_resource type="GDScript" id="GDScript_g2els"]
+script/source = "extends Area2D
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready() -> void:
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+func _process(delta: float) -> void:
+	pass
+"
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rx8y4"]
+size = Vector2(41, 6)
+
 [node name="Player" type="CharacterBody2D" unique_id=1817752149]
 script = ExtResource("1_4flbx")
 
@@ -27,3 +44,12 @@ sprite_frames = SubResource("SpriteFrames_vemod")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=795583408]
 position = Vector2(0.5, -28.5)
 shape = SubResource("RectangleShape2D_tdlnn")
+
+[node name="GrabArea" type="Area2D" parent="." unique_id=1528532977]
+script = SubResource("GDScript_g2els")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="GrabArea" unique_id=739199351]
+position = Vector2(1, -67)
+shape = SubResource("RectangleShape2D_rx8y4")
+
+[connection signal="body_entered" from="GrabArea" to="." method="_on_grab_area_body_entered"]

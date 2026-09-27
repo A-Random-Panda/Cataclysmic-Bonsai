@@ -13,7 +13,6 @@ func _process(delta: float) -> void:
 func _on_body_entered(body: Node2D) -> void:
 	if body == get_tree().current_scene.get_node("Player"):
 		get_tree().current_scene.get_node("BonsaiPot").emit_signal("task_finished")
-	print(body)
 
 
 

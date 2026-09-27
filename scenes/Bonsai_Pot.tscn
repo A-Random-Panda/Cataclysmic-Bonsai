@@ -12,7 +12,6 @@ bg_color = Color(0.18941742, 0.720504, 0, 1)
 
 [node name="BonsaiPot" type="Node2D" unique_id=263233055]
 script = ExtResource("1_tccnq")
-h_meter = null
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=885110461]
 position = Vector2(-57.400005, -127.52501)
@@ -24,7 +23,7 @@ texture = ExtResource("1_6r4ft")
 
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D" unique_id=548813471]
 position = Vector2(2.9000015, 2.4000015)
-polygon = PackedVector2Array(-4, -3, -4, 123, 107, 125, 109, 2)
+polygon = PackedVector2Array(-4, -3, -5.499996, 125.12501, 107, 125, 108.5, -1.8749924)
 
 [node name="Control" type="Control" parent="." unique_id=1731453921]
 layout_mode = 3
@@ -61,4 +60,5 @@ offset_right = 248.0
 offset_bottom = -157.0
 horizontal_alignment = 1
 
+[connection signal="is_grabbed" from="." to="." method="_on_is_grabbed"]
 [connection signal="task_finished" from="." to="." method="_on_task_finished"]

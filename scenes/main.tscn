@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://b6kmtyy8jsxb2" path="res://scenes/player.tscn" id="5_choun"]
 [ext_resource type="PackedScene" uid="uid://b6dqpa8i7xuys" path="res://scenes/Bonsai_Pot.tscn" id="6_ya4ey"]
 [ext_resource type="PackedScene" uid="uid://d3trq7iany6vo" path="res://scenes/water_task_test.tscn" id="7_o6xl0"]
+[ext_resource type="PackedScene" uid="uid://bbj8o5jqq0e2o" path="res://scenes/tree.tscn" id="8_tipki"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_lquwl"]
 texture = ExtResource("1_tefeu")
@@ -86,7 +87,7 @@ texture = ExtResource("4_85g3d")
 
 [node name="Player" parent="." unique_id=1817752149 instance=ExtResource("5_choun")]
 z_index = 2
-position = Vector2(7, -1)
+position = Vector2(3, 6)
 
 [node name="Camera2D" type="Camera2D" parent="Player" unique_id=1877239836]
 
@@ -99,3 +100,113 @@ position = Vector2(50, -258)
 [node name="WaterTaskTest" parent="." unique_id=1327654078 instance=ExtResource("7_o6xl0")]
 z_index = 203
 position = Vector2(-317, -124)
+
+[node name="Node" type="Node" parent="." unique_id=1313968194]
+
+[node name="Tree4" parent="Node" unique_id=1396286770 instance=ExtResource("8_tipki")]
+position = Vector2(-143, 354)
+
+[node name="Tree5" parent="Node" unique_id=1899825143 instance=ExtResource("8_tipki")]
+position = Vector2(251, 226)
+
+[node name="Tree6" parent="Node" unique_id=1871676994 instance=ExtResource("8_tipki")]
+position = Vector2(133, 568)
+
+[node name="Tree7" parent="Node" unique_id=910240359 instance=ExtResource("8_tipki")]
+position = Vector2(-506, 575)
+
+[node name="Tree8" parent="Node" unique_id=65326663 instance=ExtResource("8_tipki")]
+position = Vector2(-557, 164)
+
+[node name="Tree9" parent="Node" unique_id=1748022309 instance=ExtResource("8_tipki")]
+position = Vector2(-602, -261)
+
+[node name="Tree10" parent="Node" unique_id=1363454210 instance=ExtResource("8_tipki")]
+position = Vector2(-1900, 633)
+
+[node name="Tree11" parent="Node" unique_id=1271864989 instance=ExtResource("8_tipki")]
+position = Vector2(737, -509)
+
+[node name="Tree12" parent="Node" unique_id=1302733546 instance=ExtResource("8_tipki")]
+position = Vector2(199, -537)
+
+[node name="Tree13" parent="Node" unique_id=1341488167 instance=ExtResource("8_tipki")]
+position = Vector2(489, -955)
+
+[node name="Tree14" parent="Node" unique_id=1667932129 instance=ExtResource("8_tipki")]
+position = Vector2(696, -1293)
+
+[node name="Tree15" parent="Node" unique_id=1502533494 instance=ExtResource("8_tipki")]
+position = Vector2(982, -1438)
+
+[node name="Tree16" parent="Node" unique_id=321142291 instance=ExtResource("8_tipki")]
+position = Vector2(1480, -924)
+
+[node name="Tree17" parent="Node" unique_id=172217371 instance=ExtResource("8_tipki")]
+position = Vector2(1448, -613)
+
+[node name="Tree18" parent="Node" unique_id=1027384478 instance=ExtResource("8_tipki")]
+position = Vector2(1397, -1324)
+
+[node name="Tree3" parent="Node" unique_id=215405112 instance=ExtResource("8_tipki")]
+position = Vector2(1214, -490)
+
+[node name="Tree2" parent="Node" unique_id=1303573994 instance=ExtResource("8_tipki")]
+position = Vector2(-915, -735)
+
+[node name="Tree" parent="Node" unique_id=1217137941 instance=ExtResource("8_tipki")]
+position = Vector2(348, -170)
+
+[node name="Tree19" parent="Node" unique_id=321361157 instance=ExtResource("8_tipki")]
+position = Vector2(-250, -644)
+
+[node name="Tree20" parent="Node" unique_id=2036969482 instance=ExtResource("8_tipki")]
+position = Vector2(152, -919)
+
+[node name="Tree21" parent="Node" unique_id=512596549 instance=ExtResource("8_tipki")]
+position = Vector2(1026, -247)
+
+[node name="Tree22" parent="Node" unique_id=252713035 instance=ExtResource("8_tipki")]
+position = Vector2(1257, 295)
+
+[node name="Tree23" parent="Node" unique_id=1800836220 instance=ExtResource("8_tipki")]
+position = Vector2(1246, 741)
+
+[node name="Tree24" parent="Node" unique_id=1787675115 instance=ExtResource("8_tipki")]
+position = Vector2(1021, 1021)
+
+[node name="Tree25" parent="Node" unique_id=1600529259 instance=ExtResource("8_tipki")]
+position = Vector2(424, 852)
+
+[node name="Tree26" parent="Node" unique_id=268106423 instance=ExtResource("8_tipki")]
+position = Vector2(486, 481)
+
+[node name="Tree27" parent="Node" unique_id=623423859 instance=ExtResource("8_tipki")]
+position = Vector2(-69, 977)
+
+[node name="Tree28" parent="Node" unique_id=159815725 instance=ExtResource("8_tipki")]
+position = Vector2(-546, 928)
+
+[node name="Tree29" parent="Node" unique_id=1996207295 instance=ExtResource("8_tipki")]
+position = Vector2(-1005, -157)
+
+[node name="Tree30" parent="Node" unique_id=856872159 instance=ExtResource("8_tipki")]
+position = Vector2(-525, -893)
+
+[node name="Tree31" parent="Node" unique_id=1779960720 instance=ExtResource("8_tipki")]
+position = Vector2(-74, -1166)
+
+[node name="Tree32" parent="Node" unique_id=1497311310 instance=ExtResource("8_tipki")]
+position = Vector2(326, -1407)
+
+[node name="Tree33" parent="Node" unique_id=1174684209 instance=ExtResource("8_tipki")]
+position = Vector2(1519, -149)
+
+[node name="Tree34" parent="Node" unique_id=1918470141 instance=ExtResource("8_tipki")]
+position = Vector2(1687, -502)
+
+[node name="Tree35" parent="Node" unique_id=1609238991 instance=ExtResource("8_tipki")]
+position = Vector2(1584, 181)
+
+[node name="Tree36" parent="Node" unique_id=1356780225 instance=ExtResource("8_tipki")]
+position = Vector2(1869, -948)

@@ -6,6 +6,7 @@ var grabbing:bool
 var held_thing
 var in_game = false
 func _physics_process(delta: float) -> void:
+	print(position)
 	var tile = get_tile()
 	if tile == "road":
 		speed = 150
@@ -33,6 +34,17 @@ func _physics_process(delta: float) -> void:
 			grabbing = false
 			held_thing.position.y -= 10
 			held_thing.grabbed = false
+	if abs(position.x) > 2500:
+		if position.x > 0:
+			position.x = 2400
+		else:
+			position.x = -2400
+		position.x = 2400
+	if abs(position.y) > 2500:
+		if position.y > 0:
+			position.y = 2400
+		else:
+			position.y = -2400
 		
 	movement()
 	move_and_slide()

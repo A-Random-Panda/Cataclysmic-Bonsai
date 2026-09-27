@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://cdp4w7nqll4o5"]
 
+[ext_resource type="Script" uid="uid://b5670bb0onhou" path="res://music minigame/notes.gd" id="1_2a25p"]
 [ext_resource type="Texture2D" uid="uid://oyry7waxk5ca" path="res://assets/New Piskel (7).png" id="1_7hqtv"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_7cwte"]
@@ -42,11 +43,20 @@ animations = [{
 }],
 "loop": 0,
 "name": &"default",
-"speed": 2.0
+"speed": 1.0
 }]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_vemod"]
+radius = 61.03278
+
 [node name="Notes" type="Node2D" unique_id=567616073]
+script = ExtResource("1_2a25p")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1318951457]
 sprite_frames = SubResource("SpriteFrames_vemod")
 autoplay = "default"
+
+[node name="Area2D" type="Area2D" parent="AnimatedSprite2D" unique_id=309975672]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AnimatedSprite2D/Area2D" unique_id=1549381320]
+shape = SubResource("CircleShape2D_vemod")

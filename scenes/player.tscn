@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://b6kmtyy8jsxb2"]
 
-[ext_resource type="Script" uid="uid://d06s7wjf3e8g" path="res://player.gd" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://d06s7wjf3e8g" path="res://scripts/player.gd" id="1_4flbx"]
 [ext_resource type="Texture2D" uid="uid://dw4pvpfvhu5qa" path="res://assets/gnome-pixilart.png" id="2_onrkg"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_vemod"]

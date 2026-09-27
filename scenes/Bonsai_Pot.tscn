@@ -1,8 +1,8 @@
-[gd_scene format=3 uid="uid://cr3j76vh0urh"]
+[gd_scene format=3 uid="uid://b6dqpa8i7xuys"]
 
 [ext_resource type="Texture2D" uid="uid://casjueanetpjj" path="res://assets/image.png" id="1_6r4ft"]
-[ext_resource type="Script" uid="uid://cy6cax77qx13f" path="res://bonsai_pot.gd" id="1_tccnq"]
-[ext_resource type="Script" uid="uid://css21nc5shps2" path="res://happy_bar.gd" id="3_xx31s"]
+[ext_resource type="Script" uid="uid://cy6cax77qx13f" path="res://scripts/bonsai_pot.gd" id="1_tccnq"]
+[ext_resource type="Script" uid="uid://css21nc5shps2" path="res://scripts/happy_bar.gd" id="3_xx31s"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_p35sp"]
 bg_color = Color(0.3553136, 0.35531354, 0.35531357, 1)
@@ -12,6 +12,7 @@ bg_color = Color(0.18941742, 0.720504, 0, 1)
 
 [node name="BonsaiPot" type="Node2D" unique_id=263233055]
 script = ExtResource("1_tccnq")
+h_meter = null
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=885110461]
 position = Vector2(-57.400005, -127.52501)
@@ -52,3 +53,12 @@ value = 100.0
 show_percentage = false
 script = ExtResource("3_xx31s")
 metadata/_edit_use_anchors_ = true
+
+[node name="Label" type="Label" parent="." unique_id=864602451]
+offset_left = -247.0
+offset_top = -180.0
+offset_right = 248.0
+offset_bottom = -157.0
+horizontal_alignment = 1
+
+[connection signal="task_finished" from="." to="." method="_on_task_finished"]

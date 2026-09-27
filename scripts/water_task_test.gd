@@ -11,9 +11,9 @@ func _process(delta: float) -> void:
 	pass
 
 func _on_body_entered(body: Node2D) -> void:
-	if body == get_tree().current_scene.get_node("Player"):
-		get_tree().current_scene.get_node("BonsaiPot").emit_signal("task_finished")
-
-
-
+	var player = get_tree().current_scene.get_node("Player")
+	if body == player:
+		if player.grabbing:
+			player.held_thing.emit_signal("task_finished",["Water",-1])
+	
 	

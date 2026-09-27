@@ -92,7 +92,9 @@ position = Vector2(7, -1)
 
 [node name="BonsaiPot" parent="." unique_id=263233055 instance=ExtResource("6_ya4ey")]
 position = Vector2(-156, -254)
-h_meter = 200.0
+
+[node name="BonsaiPot2" parent="." unique_id=889426889 instance=ExtResource("6_ya4ey")]
+position = Vector2(50, -258)
 
 [node name="WaterTaskTest" parent="." unique_id=1327654078 instance=ExtResource("7_o6xl0")]
 z_index = 203

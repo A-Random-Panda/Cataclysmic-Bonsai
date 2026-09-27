@@ -11,6 +11,7 @@ bg_color = Color(0.3553136, 0.35531354, 0.35531357, 1)
 bg_color = Color(0.18941742, 0.720504, 0, 1)
 
 [node name="BonsaiPot" type="Node2D" unique_id=263233055]
+z_index = 16
 script = ExtResource("1_tccnq")
 
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=885110461]

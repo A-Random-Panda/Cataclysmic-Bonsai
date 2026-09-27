@@ -2,8 +2,8 @@ extends CharacterBody2D
 
 @onready var tile_map_layer: TileMapLayer = get_tree().current_scene.get_node("TileMapLayer")
 var speed = 150.0
-
-
+var grabbing:bool
+var held_thing
 func _physics_process(delta: float) -> void:
 	var tile = get_tile()
 	if tile == "road":
@@ -18,7 +18,13 @@ func _physics_process(delta: float) -> void:
 	else:
 		#print("code does run")
 		pass
-	
+		
+	if Input.is_action_just_pressed("drop"):
+		if grabbing:
+			grabbing = false
+			held_thing.position.y -= 10
+			held_thing.grabbed = false
+		
 	movement()
 	move_and_slide()
 	
@@ -45,7 +51,13 @@ func get_tile():
 
 
 func _on_grab_area_body_entered(body: Node2D) -> void:
-	if body.get_parent().name == "BonsaiPot":
-		get_tree().current_scene.get_node("BonsaiPot").emit_signal("is_grabbed",position)
+
+	if not grabbing:
+		for child in get_tree().current_scene.find_children("BonsaiPot*"):
+			if body == child.get_child(0):
+				child.emit_signal("is_grabbed",position)
+				held_thing = child
+				grabbing = true
+
 
 		

@@ -22,7 +22,7 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	timer += delta
 	animation_timer += delta
-	if (timer > 1 and animation_timer < 5 ) or (timer > 0.7 and animation_timer >= 5 and animation_timer < 13) or (timer > 0.3 and animation_timer >= 13 and animation_timer < 20):
+	if (timer > 1 and animation_timer < 5 ) or (timer > 0.7 and animation_timer >= 5 and animation_timer < 13) or (timer > 0.5 and animation_timer >= 13 and animation_timer < 20):
 		spawn_notes()
 		timer = 0
 	if len(notes_list) > 0 :
@@ -48,8 +48,7 @@ func _on_mouse_entered(note: Node2D) -> void:
 	notes_list.erase(note)
 	note.queue_free()
 
-		
-	
+
 
 func spawn_notes() -> void:
 	var notes: Node = notes_animation.instantiate()

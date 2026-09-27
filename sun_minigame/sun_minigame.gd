@@ -20,6 +20,7 @@ func _process(delta: float) -> void:
 		if time > 10:
 			times_up = true
 			finish_game()
+
 func finish_game():
 	var player = get_tree().current_scene.get_node("Player")
 	player.held_thing.emit_signal("task_finished",["Sun",score])

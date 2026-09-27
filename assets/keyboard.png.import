@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://duj4nfp3je652"
-path="res://.godot/imported/alex_minecraft.png-011eacdc0d336289e250a6454c3eb0cc.ctex"
+uid="uid://cfqr8pvy6wj2b"
+path="res://.godot/imported/keyboard.png-2771f8875f06b8814b16eba3fc311cef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/alex_minecraft.png"
-dest_files=["res://.godot/imported/alex_minecraft.png-011eacdc0d336289e250a6454c3eb0cc.ctex"]
+source_file="res://assets/keyboard.png"
+dest_files=["res://.godot/imported/keyboard.png-2771f8875f06b8814b16eba3fc311cef.ctex"]
 
 [params]
 

@@ -6,22 +6,22 @@ var grabbing:bool
 var held_thing
 var in_game = false
 func _physics_process(delta: float) -> void:
-	
 	var tile = get_tile()
 	if tile == "road":
 		speed = 150
 		
 	elif tile == "water":
-		pass
-		#print('cry')
+		position = Vector2(746.8496, -785.3945)
+	elif tile == "dance":
+		position = Vector2(-968.4984, 702.4985)
 	elif tile  == "grass":
-		#print('grass')
 		speed = 75
 	elif tile == "rock":
 		if not in_game:
 			var sun_minigame = sun_scene.instantiate()
 			add_child(sun_minigame)
 			in_game = true
+	
 	else:
 		pass
 		

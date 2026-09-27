@@ -9,6 +9,7 @@
 [ext_resource type="AudioStream" uid="uid://bb06iga7h1tgf" path="res://assets/sounds/A.ogg" id="7_0bngy"]
 [ext_resource type="AudioStream" uid="uid://cgqmqtv5u26r3" path="res://assets/sounds/B.ogg" id="8_nbd8f"]
 [ext_resource type="AudioStream" uid="uid://chr2bbr7btepk" path="res://assets/sounds/C2.ogg" id="9_5ajmt"]
+[ext_resource type="Texture2D" uid="uid://cfqr8pvy6wj2b" path="res://assets/keyboard.png" id="10_pq6pi"]
 
 [node name="Music" type="Node2D" unique_id=485553916]
 script = ExtResource("1_xhx16")
@@ -44,3 +45,18 @@ stream = ExtResource("8_nbd8f")
 
 [node name="C2" type="AudioStreamPlayer2D" parent="." unique_id=283141193]
 stream = ExtResource("9_5ajmt")
+
+[node name="Keyboard" type="Sprite2D" parent="." unique_id=93721435]
+z_index = -3
+position = Vector2(576.6667, 324.125)
+scale = Vector2(8.003087, 8.003087)
+texture = ExtResource("10_pq6pi")
+
+[node name="Instructions" type="Label" parent="." unique_id=423799985]
+offset_left = 458.0
+offset_top = 212.0
+offset_right = 761.0
+offset_bottom = 305.0
+text = "Hover over the circles 
+with your mouse before 
+they disappear"

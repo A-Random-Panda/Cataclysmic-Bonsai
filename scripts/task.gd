@@ -4,7 +4,7 @@ class_name task
 const types:Array = ["Water","Music","Sun"]
 const requests:Dictionary = {
 	"Water":"My roots are thirsty",
-	"Music":"Sing to me",
+	"Music":"I want to dance, can you play me some music",
 	"Sun":"I want sun"
 	}
 var request:String

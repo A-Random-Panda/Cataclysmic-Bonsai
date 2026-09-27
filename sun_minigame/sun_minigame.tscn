@@ -6,7 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://bv0kcshi0l241" path="res://assets/tile_map3.png" id="3_dw5gq"]
 [ext_resource type="Texture2D" uid="uid://v1st0mm0ygta" path="res://assets/tile_map.png" id="4_f6yjf"]
 [ext_resource type="Texture2D" uid="uid://dtgiad2a34yue" path="res://assets/tile_map2.png" id="5_1gusi"]
-[ext_resource type="Texture2D" uid="uid://casjueanetpjj" path="res://assets/image.png" id="6_f6yjf"]
+[ext_resource type="Texture2D" uid="uid://b5dibnquqym5d" path="res://assets/Bonsai_pot.png" id="6_1gusi"]
 [ext_resource type="Texture2D" uid="uid://dw4pvpfvhu5qa" path="res://assets/gnome-pixilart.png" id="7_1gusi"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_1dxln"]
@@ -92,9 +92,9 @@ tile_set = SubResource("TileSet_w2vjb")
 
 [node name="Image" type="Sprite2D" parent="." unique_id=1645675969]
 z_index = 264
-position = Vector2(-5, 99)
-scale = Vector2(0.25813955, 0.24426389)
-texture = ExtResource("6_f6yjf")
+position = Vector2(-1.5651188, 132.06769)
+scale = Vector2(2, 1.892)
+texture = ExtResource("6_1gusi")
 
 [node name="Gnome" type="Sprite2D" parent="." unique_id=697483905]
 z_index = 334
@@ -167,3 +167,12 @@ texture = ExtResource("1_8j5rk")
 flip_v = true
 region_enabled = true
 region_rect = Rect2(-22.68718, 25.810226, 1942.6871, 159.95325)
+
+[node name="Instructions" type="Label" parent="." unique_id=1751507629]
+z_index = 4096
+offset_left = -175.0
+offset_top = 280.0
+offset_right = 169.0
+offset_bottom = 322.0
+theme_override_font_sizes/font_size = 30
+text = "Press space bar to grow"
